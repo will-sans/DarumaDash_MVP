@@ -1,0 +1,4705 @@
+fileFormatVersion: 2
+guid: 95d02a3e9e1348744a7bec31b88fc6b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3393013169377438658
+    second: Chr007HITO_ONI_0
+  - first:
+      213: -9082045290358404223
+    second: Chr007HITO_ONI_1
+  - first:
+      213: -1494738306870893591
+    second: Chr007HITO_ONI_2
+  - first:
+      213: 316182537110455007
+    second: Chr007HITO_ONI_3
+  - first:
+      213: 3029831823609501168
+    second: Chr007HITO_ONI_4
+  - first:
+      213: -261300946103150561
+    second: Chr007HITO_ONI_5
+  - first:
+      213: -7596692009680616442
+    second: Chr007HITO_ONI_6
+  - first:
+      213: -1606029722193597250
+    second: Chr007HITO_ONI_7
+  - first:
+      213: 2525633494490082955
+    second: Chr007HITO_ONI_8
+  - first:
+      213: 3529806312826575350
+    second: Chr007HITO_ONI_9
+  - first:
+      213: 2242905342741241606
+    second: Chr007HITO_ONI_10
+  - first:
+      213: -3866084519534552131
+    second: Chr007HITO_ONI_11
+  - first:
+      213: 2838759954519897408
+    second: Chr007HITO_ONI_12
+  - first:
+      213: 8829314733143206660
+    second: Chr007HITO_ONI_13
+  - first:
+      213: -5776954444154141039
+    second: Chr007HITO_ONI_14
+  - first:
+      213: 9217073902255455398
+    second: Chr007HITO_ONI_15
+  - first:
+      213: -2631798169139215924
+    second: Chr007HITO_ONI_16
+  - first:
+      213: -3729208506791298572
+    second: Chr007HITO_ONI_17
+  - first:
+      213: -1666622649365655812
+    second: Chr007HITO_ONI_18
+  - first:
+      213: -1364947088175006287
+    second: Chr007HITO_ONI_19
+  - first:
+      213: 3642746557339961736
+    second: Chr007HITO_ONI_20
+  - first:
+      213: 6992946696499880383
+    second: Chr007HITO_ONI_21
+  - first:
+      213: 6592871901270134329
+    second: Chr007HITO_ONI_22
+  - first:
+      213: 7909062431879818762
+    second: Chr007HITO_ONI_23
+  - first:
+      213: -3919919269338252198
+    second: Chr007HITO_ONI_24
+  - first:
+      213: -8964851626571783494
+    second: Chr007HITO_ONI_25
+  - first:
+      213: -9102167627461921855
+    second: Chr007HITO_ONI_26
+  - first:
+      213: 581326107314601616
+    second: Chr007HITO_ONI_27
+  - first:
+      213: 1731322127187362138
+    second: Chr007HITO_ONI_28
+  - first:
+      213: -8414390933965076748
+    second: Chr007HITO_ONI_29
+  - first:
+      213: -5917555519809989585
+    second: Chr007HITO_ONI_30
+  - first:
+      213: -4317387886193542746
+    second: Chr007HITO_ONI_31
+  - first:
+      213: -5322850513542645601
+    second: Chr007HITO_ONI_32
+  - first:
+      213: 4524711677898332404
+    second: Chr007HITO_ONI_33
+  - first:
+      213: 397594549145157150
+    second: Chr007HITO_ONI_34
+  - first:
+      213: -2574375396686342137
+    second: Chr007HITO_ONI_35
+  - first:
+      213: -5224029195355274518
+    second: Chr007HITO_ONI_36
+  - first:
+      213: 4758609720114336917
+    second: Chr007HITO_ONI_37
+  - first:
+      213: -3507451664505887715
+    second: Chr007HITO_ONI_38
+  - first:
+      213: 2709965827600084509
+    second: Chr007HITO_ONI_39
+  - first:
+      213: -8459125582662135641
+    second: Chr007HITO_ONI_40
+  - first:
+      213: 5898433002612895689
+    second: Chr007HITO_ONI_41
+  - first:
+      213: -8281763486359419940
+    second: Chr007HITO_ONI_42
+  - first:
+      213: 4700723718394447969
+    second: Chr007HITO_ONI_43
+  - first:
+      213: -8633094159239496636
+    second: Chr007HITO_ONI_44
+  - first:
+      213: -6026795310689357163
+    second: Chr007HITO_ONI_45
+  - first:
+      213: 6816783861129075847
+    second: Chr007HITO_ONI_46
+  - first:
+      213: -9061996749149049158
+    second: Chr007HITO_ONI_47
+  - first:
+      213: 3181253335090540029
+    second: Chr007HITO_ONI_48
+  - first:
+      213: 5173904095610147927
+    second: Chr007HITO_ONI_49
+  - first:
+      213: 5090369442560272248
+    second: Chr007HITO_ONI_50
+  - first:
+      213: -3801232888891038185
+    second: Chr007HITO_ONI_51
+  - first:
+      213: 6172555987286244623
+    second: Chr007HITO_ONI_52
+  - first:
+      213: -4855623969137611535
+    second: Chr007HITO_ONI_53
+  - first:
+      213: 5794427288733779224
+    second: Chr007HITO_ONI_54
+  - first:
+      213: 4083793939882435504
+    second: Chr007HITO_ONI_55
+  - first:
+      213: -1945912053267912960
+    second: Chr007HITO_ONI_56
+  - first:
+      213: 8467284282985020542
+    second: Chr007HITO_ONI_57
+  - first:
+      213: -8658360859317060455
+    second: Chr007HITO_ONI_58
+  - first:
+      213: 6510872343720407692
+    second: Chr007HITO_ONI_59
+  - first:
+      213: -4119861026383241544
+    second: Chr007HITO_ONI_60
+  - first:
+      213: 2712200321441865988
+    second: Chr007HITO_ONI_61
+  - first:
+      213: 461332464184588314
+    second: Chr007HITO_ONI_62
+  - first:
+      213: 8726053739206343116
+    second: Chr007HITO_ONI_63
+  - first:
+      213: -8604254907757007309
+    second: Chr007HITO_ONI_64
+  - first:
+      213: -3635814253496751623
+    second: Chr007HITO_ONI_65
+  - first:
+      213: -2990619074112205164
+    second: Chr007HITO_ONI_66
+  - first:
+      213: -6025297971356710012
+    second: Chr007HITO_ONI_67
+  - first:
+      213: -5703671617298078911
+    second: Chr007HITO_ONI_68
+  - first:
+      213: 8176925704451241595
+    second: Chr007HITO_ONI_69
+  - first:
+      213: 2876684519044463563
+    second: Chr007HITO_ONI_70
+  - first:
+      213: -9131507126785713312
+    second: Chr007HITO_ONI_71
+  - first:
+      213: 7626957480145840484
+    second: Chr007HITO_ONI_72
+  - first:
+      213: -5749578851687704767
+    second: Chr007HITO_ONI_73
+  - first:
+      213: 7535212886516011494
+    second: Chr007HITO_ONI_74
+  - first:
+      213: 5409904830804559164
+    second: Chr007HITO_ONI_75
+  - first:
+      213: 3076788300604935177
+    second: Chr007HITO_ONI_76
+  - first:
+      213: 7715301193503786624
+    second: Chr007HITO_ONI_77
+  - first:
+      213: 1650643946006320628
+    second: Chr007HITO_ONI_78
+  - first:
+      213: -2560206162186040398
+    second: Chr007HITO_ONI_79
+  - first:
+      213: 1766849112652192264
+    second: Chr007HITO_ONI_80
+  - first:
+      213: 5188875185260280835
+    second: Chr007HITO_ONI_81
+  - first:
+      213: -6707845070171913427
+    second: Chr007HITO_ONI_82
+  - first:
+      213: 8294659511633292572
+    second: Chr007HITO_ONI_83
+  - first:
+      213: 4174649560486969258
+    second: Chr007HITO_ONI_84
+  - first:
+      213: -8020116374464572508
+    second: Chr007HITO_ONI_85
+  - first:
+      213: 7543020666182122635
+    second: Chr007HITO_ONI_86
+  - first:
+      213: -2537074183306157545
+    second: Chr007HITO_ONI_87
+  - first:
+      213: 6221690342273006516
+    second: Chr007HITO_ONI_88
+  - first:
+      213: -6849281848324274299
+    second: Chr007HITO_ONI_89
+  - first:
+      213: -5897076421379723477
+    second: Chr007HITO_ONI_90
+  - first:
+      213: 3069751555317949020
+    second: Chr007HITO_ONI_91
+  - first:
+      213: 5778899706184283208
+    second: Chr007HITO_ONI_92
+  - first:
+      213: -8596299953091725248
+    second: Chr007HITO_ONI_93
+  - first:
+      213: 3689568525126724931
+    second: Chr007HITO_ONI_94
+  - first:
+      213: -2244621459964992410
+    second: Chr007HITO_ONI_95
+  - first:
+      213: 6988986395377343196
+    second: Chr007HITO_ONI_96
+  - first:
+      213: -2937674504747347578
+    second: Chr007HITO_ONI_97
+  - first:
+      213: -5515763555790559215
+    second: Chr007HITO_ONI_98
+  - first:
+      213: -6217549825188677895
+    second: Chr007HITO_ONI_99
+  - first:
+      213: 8188896946360133066
+    second: Chr007HITO_ONI_100
+  - first:
+      213: 7867180660109375227
+    second: Chr007HITO_ONI_101
+  - first:
+      213: -584042687165972215
+    second: Chr007HITO_ONI_102
+  - first:
+      213: -1158617586355604524
+    second: Chr007HITO_ONI_103
+  - first:
+      213: 7546188524420963847
+    second: Chr007HITO_ONI_104
+  - first:
+      213: 6800099339357119240
+    second: Chr007HITO_ONI_105
+  - first:
+      213: -6536099370652731673
+    second: Chr007HITO_ONI_106
+  - first:
+      213: 8245915131167763220
+    second: Chr007HITO_ONI_107
+  - first:
+      213: -2415312523044361434
+    second: Chr007HITO_ONI_108
+  - first:
+      213: -6894801641746973212
+    second: Chr007HITO_ONI_109
+  - first:
+      213: -2806436369713028232
+    second: Chr007HITO_ONI_110
+  - first:
+      213: -9098116581495023911
+    second: Chr007HITO_ONI_111
+  - first:
+      213: -6278356394277063402
+    second: Chr007HITO_ONI_112
+  - first:
+      213: 8006933082212857005
+    second: Chr007HITO_ONI_113
+  - first:
+      213: -7094625413701730054
+    second: Chr007HITO_ONI_114
+  - first:
+      213: 4942403929380632730
+    second: Chr007HITO_ONI_115
+  - first:
+      213: -5595894105313197199
+    second: Chr007HITO_ONI_116
+  - first:
+      213: -14248999373995285
+    second: Chr007HITO_ONI_117
+  - first:
+      213: -9139364497222125209
+    second: Chr007HITO_ONI_118
+  - first:
+      213: -1659402660615727427
+    second: Chr007HITO_ONI_119
+  - first:
+      213: -1477826851633852695
+    second: Chr007HITO_ONI_120
+  - first:
+      213: -4365315000473501087
+    second: Chr007HITO_ONI_121
+  - first:
+      213: 2948462224171930514
+    second: Chr007HITO_ONI_122
+  - first:
+      213: 7637776615777536512
+    second: Chr007HITO_ONI_123
+  - first:
+      213: -3037537689795392369
+    second: Chr007HITO_ONI_124
+  - first:
+      213: 7564585160118691957
+    second: Chr007HITO_ONI_125
+  - first:
+      213: 762893078336737873
+    second: Chr007HITO_ONI_126
+  - first:
+      213: -662606901709935214
+    second: Chr007HITO_ONI_127
+  - first:
+      213: -6839089563437265011
+    second: Chr007HITO_ONI_128
+  - first:
+      213: -5872751338066391926
+    second: Chr007HITO_ONI_129
+  - first:
+      213: 5638412752270399636
+    second: Chr007HITO_ONI_130
+  - first:
+      213: 6119137720003179207
+    second: Chr007HITO_ONI_131
+  - first:
+      213: 5390656134443473953
+    second: Chr007HITO_ONI_132
+  - first:
+      213: 5155996098357087252
+    second: Chr007HITO_ONI_133
+  - first:
+      213: 5200879220648219219
+    second: Chr007HITO_ONI_134
+  - first:
+      213: -8488787006055987712
+    second: Chr007HITO_ONI_135
+  - first:
+      213: 3392333232525433177
+    second: Chr007HITO_ONI_136
+  - first:
+      213: -5561904614158834502
+    second: Chr007HITO_ONI_137
+  - first:
+      213: 4146976219100791514
+    second: Chr007HITO_ONI_138
+  - first:
+      213: 865504405809135045
+    second: Chr007HITO_ONI_139
+  - first:
+      213: -588863743725847750
+    second: Chr007HITO_ONI_140
+  - first:
+      213: 4687835053530248854
+    second: Chr007HITO_ONI_141
+  - first:
+      213: -5350889195125444757
+    second: Chr007HITO_ONI_142
+  - first:
+      213: -5098974466917046280
+    second: Chr007HITO_ONI_143
+  - first:
+      213: 4884823000402742958
+    second: Chr007HITO_ONI_144
+  - first:
+      213: -2649361806335144771
+    second: Chr007HITO_ONI_145
+  - first:
+      213: 1120700245271548339
+    second: Chr007HITO_ONI_146
+  - first:
+      213: -1072723451480098947
+    second: Chr007HITO_ONI_147
+  - first:
+      213: 9031806688972756733
+    second: Chr007HITO_ONI_148
+  - first:
+      213: -7196191696669847809
+    second: Chr007HITO_ONI_149
+  - first:
+      213: 628670774566087550
+    second: Chr007HITO_ONI_150
+  - first:
+      213: -6987544112298398954
+    second: Chr007HITO_ONI_151
+  - first:
+      213: 1434027405012066940
+    second: Chr007HITO_ONI_152
+  - first:
+      213: -6306710864786308294
+    second: Chr007HITO_ONI_153
+  - first:
+      213: -2785876112334436136
+    second: Chr007HITO_ONI_154
+  - first:
+      213: -2684117029116226594
+    second: Chr007HITO_ONI_155
+  - first:
+      213: -6379022709747984169
+    second: Chr007HITO_ONI_156
+  - first:
+      213: 6301359820332495681
+    second: Chr007HITO_ONI_157
+  - first:
+      213: -7532520060149421227
+    second: Chr007HITO_ONI_158
+  - first:
+      213: -1248617625544690403
+    second: Chr007HITO_ONI_159
+  - first:
+      213: -1644172201465341632
+    second: Chr007HITO_ONI_160
+  - first:
+      213: 1361218495631609532
+    second: Chr007HITO_ONI_161
+  - first:
+      213: 4238053277554635312
+    second: Chr007HITO_ONI_162
+  - first:
+      213: -4048821132448201041
+    second: Chr007HITO_ONI_163
+  - first:
+      213: -2197047734677466841
+    second: Chr007HITO_ONI_164
+  - first:
+      213: -6430763258051461381
+    second: Chr007HITO_ONI_165
+  - first:
+      213: -6065951678486198672
+    second: Chr007HITO_ONI_166
+  - first:
+      213: 2699649864420093469
+    second: Chr007HITO_ONI_167
+  - first:
+      213: 9166619237721357972
+    second: Chr007HITO_ONI_168
+  - first:
+      213: 7502001225638907946
+    second: Chr007HITO_ONI_169
+  - first:
+      213: -2376214981632329387
+    second: Chr007HITO_ONI_170
+  - first:
+      213: 6626807649305228388
+    second: Chr007HITO_ONI_171
+  - first:
+      213: 2155001115670877463
+    second: Chr007HITO_ONI_172
+  - first:
+      213: -57332411917956011
+    second: Chr007HITO_ONI_173
+  - first:
+      213: 6618325093980234725
+    second: Chr007HITO_ONI_174
+  - first:
+      213: 4379643023497534893
+    second: Chr007HITO_ONI_175
+  - first:
+      213: -5884321934372956342
+    second: Chr007HITO_ONI_176
+  - first:
+      213: -6398788028259816894
+    second: Chr007HITO_ONI_177
+  - first:
+      213: 6398369564722355371
+    second: Chr007HITO_ONI_178
+  - first:
+      213: -8455353090448689696
+    second: Chr007HITO_ONI_179
+  - first:
+      213: 7719866673197399999
+    second: Chr007HITO_ONI_180
+  - first:
+      213: 670542855548375862
+    second: Chr007HITO_ONI_181
+  - first:
+      213: -6129282637418658268
+    second: Chr007HITO_ONI_182
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1359
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e341909df7899e0d0800000000000000
+      internalID: -3393013169377438658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1359
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b8d2a5de716f180800000000000000
+      internalID: -9082045290358404223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1359
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3aacaed6f914be0800000000000000
+      internalID: -1494738306870893591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1359
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd286a0a75e436400800000000000000
+      internalID: 316182537110455007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1295
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f51b67adff1c0a20800000000000000
+      internalID: 3029831823609501168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1295
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f185c088c2caf5cf0800000000000000
+      internalID: -261300946103150561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1295
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60440febdd0239690800000000000000
+      internalID: -7596692009680616442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1295
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc6eed0a7c36b9e0800000000000000
+      internalID: -1606029722193597250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1231
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ee8e7284adc0320800000000000000
+      internalID: 2525633494490082955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1231
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f995f9c3246cf030800000000000000
+      internalID: 3529806312826575350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1231
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fdaea9686602f10800000000000000
+      internalID: 2242905342741241606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1231
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb9185ec98e85ac0800000000000000
+      internalID: -3866084519534552131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1231
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04533c3632d456720800000000000000
+      internalID: 2838759954519897408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1231
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40baf1758f6088a70800000000000000
+      internalID: 8829314733143206660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1167
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19604986a8224dfa0800000000000000
+      internalID: -5776954444154141039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1169
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acb57441ef99ef70800000000000000
+      internalID: 9217073902255455398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1168
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc10fef4289f97bd0800000000000000
+      internalID: -2631798169139215924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1167
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9f65b0f903f3cc0800000000000000
+      internalID: -3729208506791298572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1170
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe80f1d787fed8e0800000000000000
+      internalID: -1666622649365655812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1169
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdff18eadbbe0de0800000000000000
+      internalID: -1364947088175006287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1103
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889860d91b2ad8230800000000000000
+      internalID: 3642746557339961736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1103
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1ed1268ffeb0160800000000000000
+      internalID: 6992946696499880383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1103
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e4cdc40169e7b50800000000000000
+      internalID: 6592871901270134329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_23
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1039
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e6596b062a2cd60800000000000000
+      internalID: 7909062431879818762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1041
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c72e27136a999c0800000000000000
+      internalID: -3919919269338252198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1040
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab22b1681f2769380800000000000000
+      internalID: -8964851626571783494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1040
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c37217a4ca9ea180800000000000000
+      internalID: -9102167627461921855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 975
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb52db309411800800000000000000
+      internalID: 581326107314601616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 975
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51c6ce3d44e60810800000000000000
+      internalID: 1731322127187362138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 973
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f68eb3e6041a3b80800000000000000
+      internalID: -8414390933965076748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 971
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24d2177b9e90eda0800000000000000
+      internalID: -5917555519809989585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 971
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9fbdd879e8514c0800000000000000
+      internalID: -4317387886193542746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_32
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 970
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98f8cbd8af6126b0800000000000000
+      internalID: -5322850513542645601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 975
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f811305c410bce30800000000000000
+      internalID: 4524711677898332404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_34
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 988
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ebd6ac22a848500800000000000000
+      internalID: 397594549145157150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 999
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7085102673bf54cd0800000000000000
+      internalID: -2574375396686342137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_36
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 988
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2449aff158087b0800000000000000
+      internalID: -5224029195355274518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_37
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 988
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594d228045af90240800000000000000
+      internalID: 4758609720114336917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_38
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 996
+        width: 85
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14264e5b47035fc0800000000000000
+      internalID: -3507451664505887715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 974
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eec8bef8bbb9520800000000000000
+      internalID: 2709965827600084509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_40
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 911
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a01107d9162b9a80800000000000000
+      internalID: -8459125582662135641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_41
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 847
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfae2c80917bd150800000000000000
+      internalID: 5898433002612895689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_42
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 911
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd30fb1ecf3411d80800000000000000
+      internalID: -8281763486359419940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_43
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 847
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168872ef0535c3140800000000000000
+      internalID: 4700723718394447969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_44
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 911
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cb70e2a96113880800000000000000
+      internalID: -8633094159239496636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_45
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 847
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592fe54a8958c5ca0800000000000000
+      internalID: -6026795310689357163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_46
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 911
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cd6390ec41a9e50800000000000000
+      internalID: 6816783861129075847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_47
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 846
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee93b18f15d3280800000000000000
+      internalID: -9061996749149049158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 851
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd2992ad05162c20800000000000000
+      internalID: 3181253335090540029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_49
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 845
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75418c8cc566dc740800000000000000
+      internalID: 5173904095610147927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_50
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 921
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877ee4fb900a4a640800000000000000
+      internalID: 5090369442560272248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_51
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 911
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7162e1dc3de4f3bc0800000000000000
+      internalID: -3801232888891038185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 864
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d386287f259a550800000000000000
+      internalID: 6172555987286244623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_53
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 860
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc2eace9bb5d9cb0800000000000000
+      internalID: -4855623969137611535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_54
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 852
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8158ecd3be0f96050800000000000000
+      internalID: 5794427288733779224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_55
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 921
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3e59293fc8ca830800000000000000
+      internalID: 4083793939882435504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_56
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 845
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007a0d42c4bbef4e0800000000000000
+      internalID: -1945912053267912960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_57
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 911
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cf19b9136d18570800000000000000
+      internalID: 8467284282985020542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_58
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 858
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cb2432ca257d780800000000000000
+      internalID: -8658360859317060455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_59
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 864
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82be5986e34b5a50800000000000000
+      internalID: 6510872343720407692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_60
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 854
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be5376793053d6c0800000000000000
+      internalID: -4119861026383241544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_61
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 849
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4012e3f82dba3a520800000000000000
+      internalID: 2712200321441865988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_62
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 860
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18f3139e6bf66600800000000000000
+      internalID: 461332464184588314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_63
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 852
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9fc58a4ab291970800000000000000
+      internalID: 8726053739206343116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_64
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 921
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e6b3aafbb879880800000000000000
+      internalID: -8604254907757007309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_65
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 844
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f92607233efa8dc0800000000000000
+      internalID: -3635814253496751623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_66
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 911
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec80d0ccf2f76d0800000000000000
+      internalID: -2990619074112205164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_67
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 854
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bc66f1b67d16ca0800000000000000
+      internalID: -6025297971356710012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_68
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 844
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143687722ec78d0b0800000000000000
+      internalID: -5703671617298078911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 849
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76b390ea964a7170800000000000000
+      internalID: 8176925704451241595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_70
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 849
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbb28824590ce720800000000000000
+      internalID: 2876684519044463563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_71
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 922
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b5df326ae564180800000000000000
+      internalID: -9131507126785713312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_72
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 844
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469e9193b6568d960800000000000000
+      internalID: 7626957480145840484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_73
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 911
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1475e093f746530b0800000000000000
+      internalID: -5749578851687704767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_74
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 843
+        width: 150
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e19bbf6234729860800000000000000
+      internalID: 7535212886516011494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_75
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 861
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3586ccd7c7d31b40800000000000000
+      internalID: 5409904830804559164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_76
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 923
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c82aa68a2f2ba20800000000000000
+      internalID: 3076788300604935177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_77
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 843
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086c0fdde81421b60800000000000000
+      internalID: 7715301193503786624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_78
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 783
+        width: 20
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51b546ce348e610800000000000000
+      internalID: 1650643946006320628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_79
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 795
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb822f5f02587cd0800000000000000
+      internalID: -2560206162186040398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 794
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a195328eb158810800000000000000
+      internalID: 1766849112652192264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_81
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 793
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c37493d76920840800000000000000
+      internalID: 5188875185260280835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 806
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d234c08c272f8e2a0800000000000000
+      internalID: -6707845070171913427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_83
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 794
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1da7bbf0ec8c1370800000000000000
+      internalID: 8294659511633292572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_84
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 795
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaff09238a55fe930800000000000000
+      internalID: 4174649560486969258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 808
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3deba56a2d2b090800000000000000
+      internalID: -8020116374464572508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 789
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c373dc4513ea860800000000000000
+      internalID: 7543020666182122635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_87
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 792
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712e837e8708accd0800000000000000
+      internalID: -2537074183306157545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_88
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 793
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb39a10762e75650800000000000000
+      internalID: 6221690342273006516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_89
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 794
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587c910b27672f0a0800000000000000
+      internalID: -6849281848324274299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_90
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 794
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f64522d30692ea0800000000000000
+      internalID: -5897076421379723477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_91
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 783
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52ed6b76c2f99a20800000000000000
+      internalID: 3069751555317949020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_92
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 784
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84439b33aa6c23050800000000000000
+      internalID: 5778899706184283208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_93
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 792
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048b241ecbec3b880800000000000000
+      internalID: -8596299953091725248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_94
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 784
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34de3a2860bf33330800000000000000
+      internalID: 3689568525126724931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_95
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 784
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6646197bca089d0e0800000000000000
+      internalID: -2244621459964992410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_96
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 784
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda118ce81eddf060800000000000000
+      internalID: 6988986395377343196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_97
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 719
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68110d63a984b37d0800000000000000
+      internalID: -2937674504747347578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_98
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 719
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118ee0015421473b0800000000000000
+      internalID: -5515763555790559215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_99
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 719
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f636504063d6b9a0800000000000000
+      internalID: -6217549825188677895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_100
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 719
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5a316d26ec4a170800000000000000
+      internalID: 8188896946360133066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_101
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 719
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf674a5d027dd2d60800000000000000
+      internalID: 7867180660109375227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_102
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 719
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901cec9354015e7f0800000000000000
+      internalID: -584042687165972215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_103
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 719
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3f0ce9173cbefe0800000000000000
+      internalID: -1158617586355604524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_104
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 719
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e9d364b7279b860800000000000000
+      internalID: 7546188524420963847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_105
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 655
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803efb7125ece5e50800000000000000
+      internalID: 6800099339357119240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_106
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 655
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6f69b804c1b45a0800000000000000
+      internalID: -6536099370652731673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_107
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 655
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41be5418f106f6270800000000000000
+      internalID: 8245915131167763220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_108
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 655
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b6362ae061b7ed0800000000000000
+      internalID: -2415312523044361434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_109
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 655
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed34e2ef6eb050a0800000000000000
+      internalID: -6894801641746973212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_110
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 655
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873a48aadf88d09d0800000000000000
+      internalID: -2806436369713028232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_111
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 591
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6d5ea4c2ffcb180800000000000000
+      internalID: -9098116581495023911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_112
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 591
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61530d1af1cced8a0800000000000000
+      internalID: -6278356394277063402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_113
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 591
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4fe9937375e1f60800000000000000
+      internalID: 8006933082212857005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_114
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 591
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af089d176c3da8d90800000000000000
+      internalID: -7094625413701730054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_115
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 591
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a983a331032f69440800000000000000
+      internalID: 4942403929380632730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_116
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 591
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173ca14a5f36752b0800000000000000
+      internalID: -5595894105313197199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_117
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 527
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be288ed4c906dcff0800000000000000
+      internalID: -14248999373995285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_118
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 527
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769324689647a2180800000000000000
+      internalID: -9139364497222125209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_119
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 527
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db659a2721e98f8e0800000000000000
+      internalID: -1659402660615727427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_120
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 527
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee84dcee44bd7be0800000000000000
+      internalID: -1477826851633852695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_121
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 527
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162c710b2294b63c0800000000000000
+      internalID: -4365315000473501087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_122
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 527
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2931d6175ca0be820800000000000000
+      internalID: 2948462224171930514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_123
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 463
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a84398d55def960800000000000000
+      internalID: 7637776615777536512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_124
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 463
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c82ef809f78d5d0800000000000000
+      internalID: -3037537689795392369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_125
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 463
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578e01ecf1ecaf860800000000000000
+      internalID: 7564585160118691957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_126
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 463
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1529dd77637569a00800000000000000
+      internalID: 762893078336737873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_127
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 463
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d6bd59882fdc6f0800000000000000
+      internalID: -662606901709935214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_128
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 463
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f8d30f64ca611a0800000000000000
+      internalID: -6839089563437265011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_129
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 399
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c4a50f5cbcf7ea0800000000000000
+      internalID: -5872751338066391926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_130
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 399
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4981c1c468aaf3e40800000000000000
+      internalID: 5638412752270399636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_131
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 335
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2bb74f55b8be450800000000000000
+      internalID: 6119137720003179207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_132
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 337
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c98cf71357fca40800000000000000
+      internalID: 5390656134443473953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_133
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 336
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ccfd14227cd8740800000000000000
+      internalID: 5155996098357087252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_134
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 335
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3529272881c3d2840800000000000000
+      internalID: 5200879220648219219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_135
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 338
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006c41a8135c13a80800000000000000
+      internalID: -8488787006055987712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_136
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 337
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9595e640a1df31f20800000000000000
+      internalID: 3392333232525433177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_137
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 271
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4e47eb83520d2b0800000000000000
+      internalID: -5561904614158834502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_138
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 273
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2ce7f46e40d8930800000000000000
+      internalID: 4146976219100791514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_139
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 272
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdf9c3eba3e20c00800000000000000
+      internalID: 865504405809135045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_140
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 271
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b3d168b8fe3d7f0800000000000000
+      internalID: -588863743725847750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_141
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 274
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6967b4bd4298e0140800000000000000
+      internalID: 4687835053530248854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_142
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 273
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f621490a2ddb5b0800000000000000
+      internalID: -5350889195125444757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_143
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 207
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f76f94ecbdcc39b0800000000000000
+      internalID: -5098974466917046280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_144
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 208
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaec9a153a06ac340800000000000000
+      internalID: 4884823000402742958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_145
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 207
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc08eb59739b3bd0800000000000000
+      internalID: -2649361806335144771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_146
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 207
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b19a137fe68d8f00800000000000000
+      internalID: 1120700245271548339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_147
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 209
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d773c4454bbec11f0800000000000000
+      internalID: -1072723451480098947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_148
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 208
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6d730c45c675d70800000000000000
+      internalID: 9031806688972756733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_149
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 143
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffec06867cdf12c90800000000000000
+      internalID: -7196191696669847809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_150
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 143
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b6ea61dbc79b800800000000000000
+      internalID: 628670774566087550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_151
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 143
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61be416c6a1470f90800000000000000
+      internalID: -6987544112298398954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_152
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 143
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c726be9b350b6e310800000000000000
+      internalID: 1434027405012066940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_153
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 143
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33c05302ef0a78a0800000000000000
+      internalID: -6306710864786308294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_154
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 143
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d84f00af649659d0800000000000000
+      internalID: -2785876112334436136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_155
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 143
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed353f778c910cad0800000000000000
+      internalID: -2684117029116226594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_156
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 143
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8525b94a82977a0800000000000000
+      internalID: -6379022709747984169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_157
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 143
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14376dcde5de27750800000000000000
+      internalID: 6301359820332495681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_158
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 143
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b2a4f0aec177790800000000000000
+      internalID: -7532520060149421227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_159
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 79
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15fd1192e40caee0800000000000000
+      internalID: -1248617625544690403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_160
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049161e081abe29e0800000000000000
+      internalID: -1644172201465341632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_161
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 79
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe40dd720504e210800000000000000
+      internalID: 1361218495631609532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_162
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032f2d3700790da30800000000000000
+      internalID: 4238053277554635312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_163
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 79
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa68451b1a2bfc7c0800000000000000
+      internalID: -4048821132448201041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_164
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72119fbc9b48281e0800000000000000
+      internalID: -2197047734677466841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_165
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 79
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe753173e651c6a0800000000000000
+      internalID: -6430763258051461381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_166
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0764523561961dba0800000000000000
+      internalID: -6065951678486198672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_167
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 79
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee0b29f35177520800000000000000
+      internalID: 2699649864420093469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_168
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eb4af31af563f70800000000000000
+      internalID: 9166619237721357972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_169
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 79
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2090ce0e567c1860800000000000000
+      internalID: 7502001225638907946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_170
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 79
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559f7dd501df50fd0800000000000000
+      internalID: -2376214981632329387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_171
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 15
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464fdab527627fb50800000000000000
+      internalID: 6626807649305228388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_172
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 14
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7151226d81a18ed10800000000000000
+      internalID: 2155001115670877463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_173
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 14
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c8381a970543ff0800000000000000
+      internalID: -57332411917956011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_174
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 16
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3eeba8b9309db50800000000000000
+      internalID: 6618325093980234725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_175
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 17
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad9692202e97cc30800000000000000
+      internalID: 4379643023497534893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_176
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 17
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4719ad8060b65ea0800000000000000
+      internalID: -5884321934372956342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_177
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a2d86c030f237a0800000000000000
+      internalID: -6398788028259816894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_178
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 17
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac52f618339bc850800000000000000
+      internalID: 6398369564722355371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_179
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 19
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5fd41a92d88aa80800000000000000
+      internalID: -8455353090448689696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_180
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfbe4176d9722b60800000000000000
+      internalID: 7719866673197399999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_181
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 22
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63313a7ac2f3e4900800000000000000
+      internalID: 670542855548375862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr007HITO_ONI_182
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42601b46ae960faa0800000000000000
+      internalID: -6129282637418658268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

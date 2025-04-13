@@ -1,0 +1,4905 @@
+fileFormatVersion: 2
+guid: ca16afdf110486e49b7ab797af76ba01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 147296744137552084
+    second: Chr006ONI_ONI_0
+  - first:
+      213: -5054988750166030636
+    second: Chr006ONI_ONI_1
+  - first:
+      213: 8902845675573706402
+    second: Chr006ONI_ONI_2
+  - first:
+      213: -2228299121081105384
+    second: Chr006ONI_ONI_3
+  - first:
+      213: -1051813562742227068
+    second: Chr006ONI_ONI_4
+  - first:
+      213: 9206676256819112702
+    second: Chr006ONI_ONI_5
+  - first:
+      213: -3999059799461100504
+    second: Chr006ONI_ONI_6
+  - first:
+      213: 871678605024669521
+    second: Chr006ONI_ONI_7
+  - first:
+      213: -3216606902564138402
+    second: Chr006ONI_ONI_8
+  - first:
+      213: -6004391628436661805
+    second: Chr006ONI_ONI_9
+  - first:
+      213: 4248987723149046606
+    second: Chr006ONI_ONI_10
+  - first:
+      213: 5252285522902697332
+    second: Chr006ONI_ONI_11
+  - first:
+      213: -4028937000509089277
+    second: Chr006ONI_ONI_12
+  - first:
+      213: 1001575339087073373
+    second: Chr006ONI_ONI_13
+  - first:
+      213: 9214813996209654358
+    second: Chr006ONI_ONI_14
+  - first:
+      213: 4987211956272960831
+    second: Chr006ONI_ONI_15
+  - first:
+      213: -2563530765268439376
+    second: Chr006ONI_ONI_16
+  - first:
+      213: -5026693983467619931
+    second: Chr006ONI_ONI_17
+  - first:
+      213: 2839628053789570607
+    second: Chr006ONI_ONI_18
+  - first:
+      213: 5919649207690090976
+    second: Chr006ONI_ONI_19
+  - first:
+      213: -6195368940562972604
+    second: Chr006ONI_ONI_20
+  - first:
+      213: 5415622106452204118
+    second: Chr006ONI_ONI_21
+  - first:
+      213: -4128419628172398578
+    second: Chr006ONI_ONI_22
+  - first:
+      213: 6677027389604924703
+    second: Chr006ONI_ONI_23
+  - first:
+      213: -6798099546182006850
+    second: Chr006ONI_ONI_24
+  - first:
+      213: 1257840466605192484
+    second: Chr006ONI_ONI_25
+  - first:
+      213: 6543043693407687143
+    second: Chr006ONI_ONI_26
+  - first:
+      213: 6477644435040773200
+    second: Chr006ONI_ONI_27
+  - first:
+      213: -5176490061881329581
+    second: Chr006ONI_ONI_28
+  - first:
+      213: 2970459808487144479
+    second: Chr006ONI_ONI_29
+  - first:
+      213: 6870401438567581741
+    second: Chr006ONI_ONI_30
+  - first:
+      213: 697888768681981408
+    second: Chr006ONI_ONI_31
+  - first:
+      213: 4092778947774130524
+    second: Chr006ONI_ONI_32
+  - first:
+      213: -7971650164990738826
+    second: Chr006ONI_ONI_33
+  - first:
+      213: 6972891153423442625
+    second: Chr006ONI_ONI_34
+  - first:
+      213: 773952012498192162
+    second: Chr006ONI_ONI_35
+  - first:
+      213: -5570675693966412715
+    second: Chr006ONI_ONI_36
+  - first:
+      213: 3466049865767984461
+    second: Chr006ONI_ONI_37
+  - first:
+      213: 1192947414247736981
+    second: Chr006ONI_ONI_38
+  - first:
+      213: -3024683973961508722
+    second: Chr006ONI_ONI_39
+  - first:
+      213: 5210705444605267948
+    second: Chr006ONI_ONI_40
+  - first:
+      213: -174963626513431358
+    second: Chr006ONI_ONI_41
+  - first:
+      213: -8758599079756575251
+    second: Chr006ONI_ONI_42
+  - first:
+      213: 664275645432040586
+    second: Chr006ONI_ONI_43
+  - first:
+      213: 1792896665230092890
+    second: Chr006ONI_ONI_44
+  - first:
+      213: 3737161721185486792
+    second: Chr006ONI_ONI_45
+  - first:
+      213: 5704128956783012845
+    second: Chr006ONI_ONI_46
+  - first:
+      213: -7088085572017793530
+    second: Chr006ONI_ONI_47
+  - first:
+      213: -8064817369712644598
+    second: Chr006ONI_ONI_48
+  - first:
+      213: 5870908309364018596
+    second: Chr006ONI_ONI_49
+  - first:
+      213: -2752415009571296387
+    second: Chr006ONI_ONI_50
+  - first:
+      213: 6443169662404425385
+    second: Chr006ONI_ONI_51
+  - first:
+      213: 1515970274794874764
+    second: Chr006ONI_ONI_52
+  - first:
+      213: -8926619842624754315
+    second: Chr006ONI_ONI_53
+  - first:
+      213: -7792565340456038383
+    second: Chr006ONI_ONI_54
+  - first:
+      213: 1658821798174587771
+    second: Chr006ONI_ONI_55
+  - first:
+      213: 4156255752757939688
+    second: Chr006ONI_ONI_56
+  - first:
+      213: -989317316236673203
+    second: Chr006ONI_ONI_57
+  - first:
+      213: -367514214333828923
+    second: Chr006ONI_ONI_58
+  - first:
+      213: -7091092139220054320
+    second: Chr006ONI_ONI_59
+  - first:
+      213: -6372516936759518139
+    second: Chr006ONI_ONI_60
+  - first:
+      213: 1984912552583263596
+    second: Chr006ONI_ONI_61
+  - first:
+      213: 2462498365924424984
+    second: Chr006ONI_ONI_62
+  - first:
+      213: 2465003277330789739
+    second: Chr006ONI_ONI_63
+  - first:
+      213: -6448406060302713526
+    second: Chr006ONI_ONI_64
+  - first:
+      213: -1247070852471166860
+    second: Chr006ONI_ONI_65
+  - first:
+      213: 35533213373033047
+    second: Chr006ONI_ONI_66
+  - first:
+      213: 1139874508987790323
+    second: Chr006ONI_ONI_67
+  - first:
+      213: 6579183859160731679
+    second: Chr006ONI_ONI_68
+  - first:
+      213: -4181181078922803696
+    second: Chr006ONI_ONI_69
+  - first:
+      213: -8725695611704573498
+    second: Chr006ONI_ONI_70
+  - first:
+      213: 4163452795384412663
+    second: Chr006ONI_ONI_71
+  - first:
+      213: 3208854018246109296
+    second: Chr006ONI_ONI_72
+  - first:
+      213: 6554918367431814969
+    second: Chr006ONI_ONI_73
+  - first:
+      213: -8399707799696086847
+    second: Chr006ONI_ONI_74
+  - first:
+      213: 699447874548926654
+    second: Chr006ONI_ONI_75
+  - first:
+      213: 159595805160590974
+    second: Chr006ONI_ONI_76
+  - first:
+      213: 2082049015431680760
+    second: Chr006ONI_ONI_77
+  - first:
+      213: -8557957422496751401
+    second: Chr006ONI_ONI_78
+  - first:
+      213: -4219933741510541970
+    second: Chr006ONI_ONI_79
+  - first:
+      213: -4889282653662124222
+    second: Chr006ONI_ONI_80
+  - first:
+      213: 7942216725420417895
+    second: Chr006ONI_ONI_81
+  - first:
+      213: 6135599757352448644
+    second: Chr006ONI_ONI_82
+  - first:
+      213: -6946813073673048316
+    second: Chr006ONI_ONI_83
+  - first:
+      213: 6478123911320999125
+    second: Chr006ONI_ONI_84
+  - first:
+      213: 442277450521024487
+    second: Chr006ONI_ONI_85
+  - first:
+      213: -2471696986418175481
+    second: Chr006ONI_ONI_86
+  - first:
+      213: 414719163972062258
+    second: Chr006ONI_ONI_87
+  - first:
+      213: -801763803656401810
+    second: Chr006ONI_ONI_88
+  - first:
+      213: 2153982306801196227
+    second: Chr006ONI_ONI_89
+  - first:
+      213: -6564807570077618169
+    second: Chr006ONI_ONI_90
+  - first:
+      213: 8658608768019553889
+    second: Chr006ONI_ONI_91
+  - first:
+      213: 4285469690332364197
+    second: Chr006ONI_ONI_92
+  - first:
+      213: -7685547072678812048
+    second: Chr006ONI_ONI_93
+  - first:
+      213: -20440152451343643
+    second: Chr006ONI_ONI_94
+  - first:
+      213: -1477027885738652960
+    second: Chr006ONI_ONI_95
+  - first:
+      213: 8072379285894051666
+    second: Chr006ONI_ONI_96
+  - first:
+      213: 2950471799116196431
+    second: Chr006ONI_ONI_97
+  - first:
+      213: -2528871284402694179
+    second: Chr006ONI_ONI_98
+  - first:
+      213: 344674302823355913
+    second: Chr006ONI_ONI_99
+  - first:
+      213: 1112943845373464981
+    second: Chr006ONI_ONI_100
+  - first:
+      213: 4502316865735206953
+    second: Chr006ONI_ONI_101
+  - first:
+      213: 3005239549718190152
+    second: Chr006ONI_ONI_102
+  - first:
+      213: -3641007746993823508
+    second: Chr006ONI_ONI_103
+  - first:
+      213: -505588885661277303
+    second: Chr006ONI_ONI_104
+  - first:
+      213: 1685685165715698122
+    second: Chr006ONI_ONI_105
+  - first:
+      213: -3528362279395658255
+    second: Chr006ONI_ONI_106
+  - first:
+      213: -7294054045524771859
+    second: Chr006ONI_ONI_107
+  - first:
+      213: -3132179207329457044
+    second: Chr006ONI_ONI_108
+  - first:
+      213: -8376149122155505132
+    second: Chr006ONI_ONI_109
+  - first:
+      213: 8155255218133251119
+    second: Chr006ONI_ONI_110
+  - first:
+      213: 9005125207343420133
+    second: Chr006ONI_ONI_111
+  - first:
+      213: -8354670271275440125
+    second: Chr006ONI_ONI_112
+  - first:
+      213: 4064734627706249025
+    second: Chr006ONI_ONI_113
+  - first:
+      213: -1492367916621155941
+    second: Chr006ONI_ONI_114
+  - first:
+      213: -3386459991185891920
+    second: Chr006ONI_ONI_115
+  - first:
+      213: -5999425296330321715
+    second: Chr006ONI_ONI_116
+  - first:
+      213: 8716246387234688299
+    second: Chr006ONI_ONI_117
+  - first:
+      213: -5467470299825644878
+    second: Chr006ONI_ONI_118
+  - first:
+      213: -5979698274517980534
+    second: Chr006ONI_ONI_119
+  - first:
+      213: 2096816193702562863
+    second: Chr006ONI_ONI_120
+  - first:
+      213: 3476826928497692411
+    second: Chr006ONI_ONI_121
+  - first:
+      213: -6495039103250928321
+    second: Chr006ONI_ONI_122
+  - first:
+      213: -5446021674970806235
+    second: Chr006ONI_ONI_123
+  - first:
+      213: 1799641225613081442
+    second: Chr006ONI_ONI_124
+  - first:
+      213: -1983556105653592271
+    second: Chr006ONI_ONI_125
+  - first:
+      213: 6461382955989995483
+    second: Chr006ONI_ONI_126
+  - first:
+      213: 3265931294655429967
+    second: Chr006ONI_ONI_127
+  - first:
+      213: -4904913012157088731
+    second: Chr006ONI_ONI_128
+  - first:
+      213: 5205698441515011402
+    second: Chr006ONI_ONI_129
+  - first:
+      213: 338529613706908490
+    second: Chr006ONI_ONI_130
+  - first:
+      213: 4212482222164204354
+    second: Chr006ONI_ONI_131
+  - first:
+      213: 1189726859451713305
+    second: Chr006ONI_ONI_132
+  - first:
+      213: 1177361176238463245
+    second: Chr006ONI_ONI_133
+  - first:
+      213: -8778347449789228837
+    second: Chr006ONI_ONI_134
+  - first:
+      213: -4513247027996345589
+    second: Chr006ONI_ONI_135
+  - first:
+      213: -994776211424804796
+    second: Chr006ONI_ONI_136
+  - first:
+      213: -3983941093867115006
+    second: Chr006ONI_ONI_137
+  - first:
+      213: 1885396119191651319
+    second: Chr006ONI_ONI_138
+  - first:
+      213: 220956775744153146
+    second: Chr006ONI_ONI_139
+  - first:
+      213: -1432394858564037857
+    second: Chr006ONI_ONI_140
+  - first:
+      213: -7664737368032784293
+    second: Chr006ONI_ONI_141
+  - first:
+      213: -6259337504597369983
+    second: Chr006ONI_ONI_142
+  - first:
+      213: -6825814861455333179
+    second: Chr006ONI_ONI_143
+  - first:
+      213: 8434508235135462509
+    second: Chr006ONI_ONI_144
+  - first:
+      213: 3786776033382704179
+    second: Chr006ONI_ONI_145
+  - first:
+      213: 8181554086406826622
+    second: Chr006ONI_ONI_146
+  - first:
+      213: 7496791328284024014
+    second: Chr006ONI_ONI_147
+  - first:
+      213: -637056141425342868
+    second: Chr006ONI_ONI_148
+  - first:
+      213: -1274398365884370635
+    second: Chr006ONI_ONI_149
+  - first:
+      213: -7923959794572458744
+    second: Chr006ONI_ONI_150
+  - first:
+      213: 5244863293083524033
+    second: Chr006ONI_ONI_151
+  - first:
+      213: -2176444594627935078
+    second: Chr006ONI_ONI_152
+  - first:
+      213: 4672415999212369912
+    second: Chr006ONI_ONI_153
+  - first:
+      213: 3352386617000951874
+    second: Chr006ONI_ONI_154
+  - first:
+      213: -4943701883157336122
+    second: Chr006ONI_ONI_155
+  - first:
+      213: -8473042057445186329
+    second: Chr006ONI_ONI_156
+  - first:
+      213: 7337549053671792731
+    second: Chr006ONI_ONI_157
+  - first:
+      213: 1671560863009589714
+    second: Chr006ONI_ONI_158
+  - first:
+      213: -6656885097746377825
+    second: Chr006ONI_ONI_159
+  - first:
+      213: -4267952062633806277
+    second: Chr006ONI_ONI_160
+  - first:
+      213: 849545881903514278
+    second: Chr006ONI_ONI_161
+  - first:
+      213: -7486439216061797244
+    second: Chr006ONI_ONI_162
+  - first:
+      213: 1052352541079675845
+    second: Chr006ONI_ONI_163
+  - first:
+      213: 3664049273225046451
+    second: Chr006ONI_ONI_164
+  - first:
+      213: 4470293478523452752
+    second: Chr006ONI_ONI_165
+  - first:
+      213: -760080372968792998
+    second: Chr006ONI_ONI_166
+  - first:
+      213: 3795669274991798680
+    second: Chr006ONI_ONI_167
+  - first:
+      213: -1394097743737309695
+    second: Chr006ONI_ONI_168
+  - first:
+      213: 2394205425404560621
+    second: Chr006ONI_ONI_169
+  - first:
+      213: 5048841637634222209
+    second: Chr006ONI_ONI_170
+  - first:
+      213: 2228952382869288517
+    second: Chr006ONI_ONI_171
+  - first:
+      213: 3117431039612154511
+    second: Chr006ONI_ONI_172
+  - first:
+      213: 4930581138869815826
+    second: Chr006ONI_ONI_173
+  - first:
+      213: 1145123056978875577
+    second: Chr006ONI_ONI_174
+  - first:
+      213: 6529842713189875850
+    second: Chr006ONI_ONI_175
+  - first:
+      213: 7490467129128485753
+    second: Chr006ONI_ONI_176
+  - first:
+      213: 1592682102460692320
+    second: Chr006ONI_ONI_177
+  - first:
+      213: -7415550276393344870
+    second: Chr006ONI_ONI_178
+  - first:
+      213: -7375846895215855677
+    second: Chr006ONI_ONI_179
+  - first:
+      213: 443000094555356515
+    second: Chr006ONI_ONI_180
+  - first:
+      213: 3334966844361442400
+    second: Chr006ONI_ONI_181
+  - first:
+      213: -5517149728594308139
+    second: Chr006ONI_ONI_182
+  - first:
+      213: -3440179169339558938
+    second: Chr006ONI_ONI_183
+  - first:
+      213: -2803417590965577789
+    second: Chr006ONI_ONI_184
+  - first:
+      213: 5816171767214347030
+    second: Chr006ONI_ONI_185
+  - first:
+      213: -5140938607132446371
+    second: Chr006ONI_ONI_186
+  - first:
+      213: 2694804860190123970
+    second: Chr006ONI_ONI_187
+  - first:
+      213: -6283268435771742758
+    second: Chr006ONI_ONI_188
+  - first:
+      213: -724573912876354038
+    second: Chr006ONI_ONI_189
+  - first:
+      213: -7715299919984143675
+    second: Chr006ONI_ONI_190
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1359
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0f3eebb9d4b0200800000000000000
+      internalID: 147296744137552084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1359
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d602c2a38219d9b0800000000000000
+      internalID: -5054988750166030636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1359
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae71bef8f24d8b70800000000000000
+      internalID: 8902845675573706402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1359
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81445a261cd7311e0800000000000000
+      internalID: -2228299121081105384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1295
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fbfce23253761f0800000000000000
+      internalID: -1051813562742227068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1295
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efae9b9c64fa4cf70800000000000000
+      internalID: 9206676256819112702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1295
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8248391ec4c7088c0800000000000000
+      internalID: -3999059799461100504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1295
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fadcaa213d81c00800000000000000
+      internalID: 871678605024669521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1231
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52589e70115c53d0800000000000000
+      internalID: -3216606902564138402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1231
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d914b660ad1caca0800000000000000
+      internalID: -6004391628436661805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1231
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e437b4572df67fa30800000000000000
+      internalID: 4248987723149046606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1231
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475ca83faddd3e840800000000000000
+      internalID: 5252285522902697332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1231
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a5a3ee4275618c0800000000000000
+      internalID: -4028937000509089277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1231
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50931ed67f46ed00800000000000000
+      internalID: 1001575339087073373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1167
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65acf53e18891ef70800000000000000
+      internalID: 9214813996209654358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1169
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f351b31d9d2263540800000000000000
+      internalID: 4987211956272960831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1168
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bea365e9528c6cd0800000000000000
+      internalID: -2563530765268439376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1167
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9b1d064789d3ab0800000000000000
+      internalID: -5026693983467619931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1170
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f267c508ba2686720800000000000000
+      internalID: 2839628053789570607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1169
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e95a4b3791d62250800000000000000
+      internalID: 5919649207690090976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1103
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408145e5c0a50aa0800000000000000
+      internalID: -6195368940562972604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1103
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a16d4dc97282b40800000000000000
+      internalID: 5415622106452204118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1103
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00b803b838e4b6c0800000000000000
+      internalID: -4128419628172398578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1039
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d84f0d80199ac50800000000000000
+      internalID: 6677027389604924703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1041
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7c31a0b7c48a1a0800000000000000
+      internalID: -6798099546182006850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1040
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4253d147d3fb47110800000000000000
+      internalID: 1257840466605192484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1040
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1dc67929f8dca50800000000000000
+      internalID: 6543043693407687143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 975
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05424eb2b4735e950800000000000000
+      internalID: 6477644435040773200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 975
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358393607b96928b0800000000000000
+      internalID: -5176490061881329581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 973
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c73782571393920800000000000000
+      internalID: 2970459808487144479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 971
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28472a15b1985f50800000000000000
+      internalID: 6870401438567581741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 971
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5360633266fa900800000000000000
+      internalID: 697888768681981408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_32
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 970
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59264eb4c87cc830800000000000000
+      internalID: 4092778947774130524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 975
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67efa0a19620f5190800000000000000
+      internalID: -7971650164990738826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1001
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2a4416f8fa4c060800000000000000
+      internalID: 6972891153423442625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_35
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 988
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227472a3141adba00800000000000000
+      internalID: 773952012498192162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_36
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1001
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554ba3698fbf0b2b0800000000000000
+      internalID: -5570675693966412715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_37
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 996
+        width: 92
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d14ee2df1e91030800000000000000
+      internalID: 3466049865767984461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_38
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 988
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59605fd4a533e8010800000000000000
+      internalID: 1192947414247736981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 974
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88153e73f92606d0800000000000000
+      internalID: -3024683973961508722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 911
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef04ee8ef4205840800000000000000
+      internalID: 5210705444605267948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 847
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c48d093287629df0800000000000000
+      internalID: -174963626513431358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 911
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedcb01ca84337680800000000000000
+      internalID: -8758599079756575251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 847
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c8be61e2bf73900800000000000000
+      internalID: 664275645432040586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 911
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa5029406a1e810800000000000000
+      internalID: 1792896665230092890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 847
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7c27bf8c01dd330800000000000000
+      internalID: 3737161721185486792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 846
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb221e7013292f40800000000000000
+      internalID: 5704128956783012845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 911
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606de4ef9bf02ad90800000000000000
+      internalID: -7088085572017793530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_48
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 851
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ea0ebd453041090800000000000000
+      internalID: -8064817369712644598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 921
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad08808008a97150800000000000000
+      internalID: 5870908309364018596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_50
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 849
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bac08b1257dc9d0800000000000000
+      internalID: -2752415009571296387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_51
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 845
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6703babacba6950800000000000000
+      internalID: 6443169662404425385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_52
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 911
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c872337deeec90510800000000000000
+      internalID: 1515970274794874764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_53
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 864
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57de5636c864e1480800000000000000
+      internalID: -8926619842624754315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_54
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 848
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110d8111c1f3bd390800000000000000
+      internalID: -7792565340456038383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_55
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 863
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bfed9f2a1550710800000000000000
+      internalID: 1658821798174587771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 921
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed8fca169cfda930800000000000000
+      internalID: 4156255752757939688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_57
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 858
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff19b742d3542f0800000000000000
+      internalID: -989317316236673203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 852
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0b9bce4c356eaf0800000000000000
+      internalID: -367514214333828923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_59
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 845
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de49340541679d90800000000000000
+      internalID: -7091092139220054320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_60
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 911
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cd94beb954097a0800000000000000
+      internalID: -6372516936759518139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_61
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 860
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6570f63373db8b10800000000000000
+      internalID: 1984912552583263596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_62
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 869
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81db7e8873d8c2220800000000000000
+      internalID: 2462498365924424984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_63
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 858
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65b97bab63753220800000000000000
+      internalID: 2465003277330789739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_64
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 864
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d3e207ad8a286a0800000000000000
+      internalID: -6448406060302713526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_65
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 854
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47866bcbaa381bee0800000000000000
+      internalID: -1247070852471166860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_66
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 849
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae3d0f44d3e7000800000000000000
+      internalID: 35533213373033047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_67
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 866
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f37dbc93d5a1df00800000000000000
+      internalID: 1139874508987790323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_68
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 864
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f105245acd4fd4b50800000000000000
+      internalID: 6579183859160731679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 921
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c83926f579f5c0800000000000000
+      internalID: -4181181078922803696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 852
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c10a26621a18e680800000000000000
+      internalID: -8725695611704573498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_71
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 844
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9befb224e87c930800000000000000
+      internalID: 4163452795384412663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_72
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 911
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078e4a57ab3288c20800000000000000
+      internalID: 3208854018246109296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_73
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 860
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fe476968fb7fa50800000000000000
+      internalID: 6554918367431814969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_74
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 854
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8690e724e3e6b80800000000000000
+      internalID: -8399707799696086847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 844
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb80465d220f4b900800000000000000
+      internalID: 699447874548926654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_76
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 866
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e4d3a0a8ff63200800000000000000
+      internalID: 159595805160590974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 849
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2d1c16c8ce4ec10800000000000000
+      internalID: 2082049015431680760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_78
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 864
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0e925f0170c3980800000000000000
+      internalID: -8557957422496751401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_79
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 922
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d3499ce98cf65c0800000000000000
+      internalID: -4219933741510541970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_80
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 849
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2476dfdb457c52cb0800000000000000
+      internalID: -4889282653662124222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_81
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 844
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763a9d7380c683e60800000000000000
+      internalID: 7942216725420417895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_82
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 911
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48237f4b877062550800000000000000
+      internalID: 6135599757352448644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_83
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 865
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fada6b056f79f90800000000000000
+      internalID: -6946813073673048316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_84
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 843
+        width: 212
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d49041ff5be6e950800000000000000
+      internalID: 6478123911320999125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_85
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 861
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7987a7ff8432600800000000000000
+      internalID: 442277450521024487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_86
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 922
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702242cbfa4c2bdd0800000000000000
+      internalID: -2471696986418175481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_87
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 843
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c0a12e1e061c500800000000000000
+      internalID: 414719163972062258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_88
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 800
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c4b4981109fd4f0800000000000000
+      internalID: -801763803656401810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_89
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 786
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc9c59ee7b74ed10800000000000000
+      internalID: 2153982306801196227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_90
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 804
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7007abefb4e15e4a0800000000000000
+      internalID: -6564807570077618169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_91
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 786
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e53ea9cce892870800000000000000
+      internalID: 8658608768019553889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_92
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 803
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adb6fb5afb097b30800000000000000
+      internalID: 4285469690332364197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_93
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 786
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076af6c38a3775590800000000000000
+      internalID: -7685547072678812048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_94
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 804
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea9bf52ac167bff0800000000000000
+      internalID: -20440152451343643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_95
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 784
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea833ba6fa808be0800000000000000
+      internalID: -1477027885738652960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_96
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 798
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257bfe3f03ad60070800000000000000
+      internalID: 8072379285894051666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_97
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 784
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae022187e22f820800000000000000
+      internalID: 2950471799116196431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_98
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 784
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7dd7227f4a7ecd0800000000000000
+      internalID: -2528871284402694179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_99
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 784
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906ddf6c37788c400800000000000000
+      internalID: 344674302823355913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_100
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 794
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591517ed788f17f00800000000000000
+      internalID: 1112943845373464981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_101
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 784
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928a568c5517b7e30800000000000000
+      internalID: 4502316865735206953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_102
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 783
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84858e1b271c4b920800000000000000
+      internalID: 3005239549718190152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_103
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 783
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0ecf7beba887dc0800000000000000
+      internalID: -3641007746993823508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_104
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 784
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98326c35699cbf8f0800000000000000
+      internalID: -505588885661277303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_105
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac131a12ab1c46710800000000000000
+      internalID: 1685685165715698122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_106
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5fbb1733db80fc0800000000000000
+      internalID: -3528362279395658255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_107
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debbefbbd7056ca90800000000000000
+      internalID: -7294054045524771859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c534e1b934884d0800000000000000
+      internalID: -3132179207329457044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_109
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a983c80c0f1cb80800000000000000
+      internalID: -8376149122155505132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_110
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24bb7999694d2170800000000000000
+      internalID: 8155255218133251119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_111
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2de953aa1a8fc70800000000000000
+      internalID: 9005125207343420133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_112
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 719
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3086c1937af3e0c80800000000000000
+      internalID: -8354670271275440125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_113
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f19a6ab96d86830800000000000000
+      internalID: 4064734627706249025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_114
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b913b97694b0a4be0800000000000000
+      internalID: -1492367916621155941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_115
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdda4b8490e001d0800000000000000
+      internalID: -3386459991185891920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_116
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc01db3ba72cdbca0800000000000000
+      internalID: -5999425296330321715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_117
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dc7e598e356f870800000000000000
+      internalID: 8716246387234688299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_118
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 655
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bad4eeeab4af14b0800000000000000
+      internalID: -5467470299825644878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ae653e918d30da0800000000000000
+      internalID: -5979698274517980534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_120
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c8de00833691d10800000000000000
+      internalID: 2096816193702562863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_121
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe0e92abab204030800000000000000
+      internalID: 3476826928497692411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_122
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3de478095cfcd5a0800000000000000
+      internalID: -6495039103250928321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52889401428db64b0800000000000000
+      internalID: -5446021674970806235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_124
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 591
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bf0d7e82c99f810800000000000000
+      internalID: 1799641225613081442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd5723b3ef874e0800000000000000
+      internalID: -1983556105653592271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_126
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf0c8980917ba950800000000000000
+      internalID: 6461382955989995483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_127
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4db4c6753be25d20800000000000000
+      internalID: 3265931294655429967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_128
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c7f205a9f3eebb0800000000000000
+      internalID: -4904913012157088731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_129
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8e4ec62b5e3840800000000000000
+      internalID: 5205698441515011402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_130
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 527
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4353fad3e2b2b400800000000000000
+      internalID: 338529613706908490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_131
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bdeba234eb57a30800000000000000
+      internalID: 4212482222164204354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_132
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9174c557642c28010800000000000000
+      internalID: 1189726859451713305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_133
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09970a70c3d65010800000000000000
+      internalID: 1177361176238463245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_134
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd85b5c018b0d2680800000000000000
+      internalID: -8778347449789228837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_135
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bb0b08db9bd51c0800000000000000
+      internalID: -4513247027996345589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_136
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 463
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44004076e48d132f0800000000000000
+      internalID: -994776211424804796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_137
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 399
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e28f5dea236b8c0800000000000000
+      internalID: -3983941093867115006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_138
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 399
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f38159f7c54a2a10800000000000000
+      internalID: 1885396119191651319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_139
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 335
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3622f0540ff01300800000000000000
+      internalID: 220956775744153146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_140
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 337
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13d13d177c1f1ce0800000000000000
+      internalID: -1432394858564037857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_141
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b505eb929f161a590800000000000000
+      internalID: -7664737368032784293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_142
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 335
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b9135f3bd5229a0800000000000000
+      internalID: -6259337504597369983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_143
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 338
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c86f585c85d541a0800000000000000
+      internalID: -6825814861455333179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_144
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 337
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c2b5a4d846d0570800000000000000
+      internalID: 8434508235135462509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 271
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3342db93db45d8430800000000000000
+      internalID: 3786776033382704179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_146
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 273
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7aace60818ba8170800000000000000
+      internalID: 8181554086406826622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc199d4ef3f90860800000000000000
+      internalID: 7496791328284024014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_148
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 271
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c668c5c80d8b827f0800000000000000
+      internalID: -637056141425342868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_149
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 274
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531bf13307d605ee0800000000000000
+      internalID: -1274398365884370635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_150
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 273
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805080ebc80780290800000000000000
+      internalID: -7923959794572458744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb9ab7606f79c840800000000000000
+      internalID: 5244863293083524033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_152
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9402e72c27bbc1e0800000000000000
+      internalID: -2176444594627935078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 207
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7b7e38891c7d040800000000000000
+      internalID: 4672415999212369912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_154
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 207
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2408d10ddd1168e20800000000000000
+      internalID: 3352386617000951874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_155
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 209
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2af28451746bb0800000000000000
+      internalID: -4943701883157336122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_156
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4e80f0425b96a80800000000000000
+      internalID: -8473042057445186329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_157
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b506c120df534d560800000000000000
+      internalID: 7337549053671792731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 143
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c124afb3923710800000000000000
+      internalID: 1671560863009589714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f935c36f54efd93a0800000000000000
+      internalID: -6656885097746377825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_160
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 143
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36f05c263035c4c0800000000000000
+      internalID: -4267952062633806277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_161
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 143
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2414f7a713acb00800000000000000
+      internalID: 849545881903514278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_162
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 143
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c2516a233da1890800000000000000
+      internalID: -7486439216061797244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_163
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 143
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3a88d7f05ba9e00800000000000000
+      internalID: 1052352541079675845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_164
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 143
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b96b1aa66159d230800000000000000
+      internalID: 3664049273225046451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_165
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 143
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05db22deb3ca90e30800000000000000
+      internalID: 4470293478523452752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_166
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 143
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cd2788de6a375f0800000000000000
+      internalID: -760080372968792998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_167
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89920c4681deca430800000000000000
+      internalID: 3795669274991798680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_168
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1063d520d7b27ace0800000000000000
+      internalID: -1394097743737309695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 79
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44d8c362de93120800000000000000
+      internalID: 2394205425404560621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188a36238b6111640800000000000000
+      internalID: 5048841637634222209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_171
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 79
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5463f2af164deee10800000000000000
+      internalID: 2228952382869288517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_172
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82fbdf7307534b20800000000000000
+      internalID: 3117431039612154511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_173
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 79
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a83962c61fc6440800000000000000
+      internalID: 4930581138869815826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_174
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4d55b6a5b44ef00800000000000000
+      internalID: 1145123056978875577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_175
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 79
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a800bded959ae9a50800000000000000
+      internalID: 6529842713189875850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_176
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9738171fa2c73f760800000000000000
+      internalID: 7490467129128485753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_177
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 79
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ba4d0fe75a1610800000000000000
+      internalID: 1592682102460692320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_178
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 79
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a906689105ca61990800000000000000
+      internalID: -7415550276393344870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_179
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7bdf4e35ab3a990800000000000000
+      internalID: -7375846895215855677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_180
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 14
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dbf672d3ad52600800000000000000
+      internalID: 443000094555356515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_181
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 14
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0648edfecae284e20800000000000000
+      internalID: 3334966844361442400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_182
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 16
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d35e7e8d852f63b0800000000000000
+      internalID: -5517149728594308139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_183
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 16
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e331d7b5470240d0800000000000000
+      internalID: -3440179169339558938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_184
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 15
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c75a6ddd824819d0800000000000000
+      internalID: -2803417590965577789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_185
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 15
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6139779286137b050800000000000000
+      internalID: 5816171767214347030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_186
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 14
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5177cd1397b7a8b0800000000000000
+      internalID: -5140938607132446371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_187
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 14
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7e0ae1ebed56520800000000000000
+      internalID: 2694804860190123970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_188
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 20
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a669d5a85dc8a0800000000000000
+      internalID: -6283268435771742758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_189
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a067d7d7ddbc1f5f0800000000000000
+      internalID: -724573912876354038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chr006ONI_ONI_190
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2deb5a99fbde490800000000000000
+      internalID: -7715299919984143675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
