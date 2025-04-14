@@ -3,15 +3,24 @@ using System.Collections;
 
 public class DarumaVoiceController : MonoBehaviour
 {
+    private PlayerController player; //プレイヤーを参照
     public AudioClip[] darumaClips; // 各キャラ用だるま音声（6つ）
     public string characterColor = "red"; // キャラ識別
     public GameObject stopText;
+
+    void Start()
+    {
+        player = GetComponent<PlayerController>();
+    }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            PlayDarumaVoice();
+            if (GameManager.Instance.isDarumaMode && player.currentState == PlayerState.Oni)
+            {
+                PlayDarumaVoice();
+            }
         }
     }
 
