@@ -12,22 +12,23 @@ sysinfo.txt
 *.unityproj
 *.tmproj
 
-# Visual Studio Code
+# VSCode
 .vscode/
 
-# JetBrains Rider
+# Rider
 .idea/
 
-# macOS固有ファイル
+# macOS
 .DS_Store
 ._*
 .Spotlight-V100
 .Trashes
 
-# Windows固有ファイル
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
 # Logs
 *.log
+
