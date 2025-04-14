@@ -152,7 +152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77071521a9092e46a3901878702c97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  darumaClips: []
+  darumaClips:
+  - {fileID: 8300000, guid: b8f9154be4ac6df4f8d7c75fe6491a63, type: 3}
+  - {fileID: 8300000, guid: 91dff598f3a56714fa2dacd04f911770, type: 3}
+  - {fileID: 8300000, guid: 4e980cdabc11cad4aa11885c1b4ab18e, type: 3}
+  - {fileID: 8300000, guid: 68440509bdb3c364eb168db889aa946d, type: 3}
+  - {fileID: 8300000, guid: 0fe438a342434b64bb9329467a018950, type: 3}
+  - {fileID: 8300000, guid: 9891a562e46b153408dfa15ad3a60c43, type: 3}
   characterColor: red
   stopText: {fileID: 2076117737}
 --- !u!212 &42174166
@@ -219,8 +225,8 @@ Transform:
   m_GameObject: {fileID: 42174164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 200, y: 200, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -276,7 +282,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

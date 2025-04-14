@@ -3,8 +3,8 @@ using System.Collections;
 
 public class DarumaVoiceController : MonoBehaviour
 {
-    public AudioClip[] darumaClips; // ŠeƒLƒƒƒ‰—p‚¾‚é‚Ü‰¹ºi6‚Âj
-    public string characterColor = "red"; // ƒLƒƒƒ‰¯•Ê
+    public AudioClip[] darumaClips; // å„ã‚­ãƒ£ãƒ©ç”¨ã ã‚‹ã¾éŸ³å£°ï¼ˆ6ã¤ï¼‰
+    public string characterColor = "red"; // ã‚­ãƒ£ãƒ©è­˜åˆ¥
     public GameObject stopText;
 
     void Update()
@@ -31,7 +31,7 @@ public class DarumaVoiceController : MonoBehaviour
         stopText.SetActive(true);
         yield return new WaitForSeconds(1.0f);
         stopText.SetActive(false);
-        Debug.Log("[Daruma] ”»’èƒgƒŠƒK[I");
+        Debug.Log("[Daruma] åˆ¤å®šãƒˆãƒªã‚¬ãƒ¼ï¼");
     }
 
     int GetVoiceIndexByColor(string color)

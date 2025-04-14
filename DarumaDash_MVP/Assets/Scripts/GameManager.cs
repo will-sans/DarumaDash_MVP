@@ -15,12 +15,12 @@ public class GameManager : MonoBehaviour
     public void EnterDarumaMode()
     {
         isDarumaMode = true;
-        Debug.Log("[GameManager] ‚¾‚é‚Üƒ‚[ƒh“Ë“ü");
+        Debug.Log("[GameManager] ã ã‚‹ã¾ãƒ¢ãƒ¼ãƒ‰çªå…¥");
     }
 
     public void ExitDarumaMode()
     {
         isDarumaMode = false;
-        Debug.Log("[GameManager] ’Êíƒ‚[ƒh‚É–ß‚é");
+        Debug.Log("[GameManager] é€šå¸¸ãƒ¢ãƒ¼ãƒ‰ã«æˆ»ã‚‹");
     }
 }
