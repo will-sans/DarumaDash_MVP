@@ -1,5 +1,5 @@
 using UnityEngine;
-public enum NPCState//ó‘Ô‚ğEnum‚Å’è‹`
+public enum NPCState//ï¿½ï¿½Ô‚ï¿½Enumï¿½Å’ï¿½`
 {
     Idle,
     Chase,
@@ -9,12 +9,12 @@ public enum NPCState//ó‘Ô‚ğEnum‚Å’è‹`
 
 public class NPCController : MonoBehaviour
 {
-    //NPCController.cs‚Éó‘ÔŠÇ—‚ğ’Ç‰Á
+    //NPCController.csï¿½Éï¿½ÔŠÇ—ï¿½ï¿½ï¿½Ç‰ï¿½
     public NPCState currentState = NPCState.Idle;
     private float idleTimer = 0f;
     private Vector2 idleTarget;
-    //‹–ì‹——£ visionRadius ‚ğ•Ï”‰»i’²®‰Â”\j
-    public float visionRadius = 6f; // Inspector‚©‚ç’²®‰Â
+    //ï¿½ï¿½ï¿½ì‹—ï¿½ï¿½ visionRadius ï¿½ï¿½Ïï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½j
+    public float visionRadius = 6f; // Inspectorï¿½ï¿½ï¿½ç’²ï¿½ï¿½ï¿½ï¿½
 
     public float speed = 3.5f;
     //public Transform target;
@@ -24,10 +24,10 @@ public class NPCController : MonoBehaviour
     void Start()
     {
         selfPlayer = GetComponent<PlayerController>();
-        selfPlayer.currentState = PlayerState.Oni; // NPC‚Íí‚ÉƒIƒjI
+        selfPlayer.currentState = PlayerState.Oni; // NPCï¿½Íï¿½ÉƒIï¿½jï¿½I
     }
 
-    //Update‚Åó‘Ô‘JˆÚ‚Æ“®ìØ‘Ö
+    //Updateï¿½Åï¿½Ô‘Jï¿½Ú‚Æ“ï¿½ï¿½ï¿½Ø‘ï¿½
     void Update()
     {
         if (selfPlayer.currentState != PlayerState.Oni) return;
@@ -35,7 +35,7 @@ public class NPCController : MonoBehaviour
         Transform closest = FindClosestHuman();
         float distance = closest != null ? Vector2.Distance(transform.position, closest.position) : Mathf.Infinity;
 
-        // ó‘Ô‘JˆÚ
+        // ï¿½ï¿½Ô‘Jï¿½ï¿½
         if (closest != null)
         {
             if (distance < 2f)
@@ -52,7 +52,7 @@ public class NPCController : MonoBehaviour
             currentState = NPCState.Idle;
         }
 
-        // s“®Às
+        // ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½s
         switch (currentState)
         {
             case NPCState.Idle:
@@ -67,7 +67,7 @@ public class NPCController : MonoBehaviour
         }
     }
     
-    //Õ•Á•¨ƒ`ƒFƒbƒN•t‚«‚Ì FindClosestHuman() ‚É‘‚«Š·‚¦I
+    //ï¿½Õ•ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½tï¿½ï¿½ï¿½ï¿½ FindClosestHuman() ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½I
     Transform FindClosestHuman()
     {
         Transform closest = null;
@@ -82,7 +82,7 @@ public class NPCController : MonoBehaviour
 
                 if (dist < closestDist && dist <= visionRadius)
                 {
-                    // Õ•Áƒ`ƒFƒbƒNiRaycastj
+                    // ï¿½Õ•ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½iRaycastï¿½j
                     RaycastHit2D hit = Physics2D.Linecast(transform.position, t.position, LayerMask.GetMask("Obstacle"));
 
                     if (hit.collider == null)
@@ -96,7 +96,11 @@ public class NPCController : MonoBehaviour
 
         return closest;
     }
-
+    void OnDrawGizmosSelected()
+{
+    Gizmos.color = Color.red;
+    Gizmos.DrawWireSphere(transform.position, visionRadius);
+}
 
     void DoChase(Transform target, float chaseSpeed)
     {
@@ -107,7 +111,6 @@ public class NPCController : MonoBehaviour
 
     void DoIdle()
     {
-        Debug.Log("[NPC] DoIdle");
         idleTimer -= Time.deltaTime;
 
         if (idleTimer <= 0f)
