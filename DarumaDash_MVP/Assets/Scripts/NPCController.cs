@@ -162,6 +162,49 @@ public class NPCController : MonoBehaviour
     //    Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
     //    transform.position += (Vector3)(dir * (speed * 0.5f) * Time.deltaTime);
     //}
+    // void DoIdle()
+    // {
+    //     if (patrolPoints.Length == 0)
+    //     {
+    //         // 巡回ポイントが設定されていない場合は、既存のランダム移動
+    //         idleTimer -= Time.deltaTime;
+    //         if (idleTimer <= 0f)
+    //         {
+    //             idleTarget = initialPosition + Random.insideUnitCircle * idleMoveRadius;
+    //             idleTimer = Random.Range(1.5f, 3f);
+    //         }
+    //         Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
+    //         transform.position += (Vector3)(dir * (speed * patrolSpeedFactor) * Time.deltaTime);
+    //         return;
+    //     }
+
+    //     Transform targetPoint = patrolPoints[currentPatrolIndex];
+    //     Vector2 direction = ((Vector2)targetPoint.position - (Vector2)transform.position).normalized;
+
+    //     // 障害物回避処理
+    //     RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Obstacle"));
+
+    //     if (hit.collider == null)
+    //     {
+    //         // 障害物がなければそのまま進む
+    //         transform.position += (Vector3)(direction * (speed * patrolSpeedFactor) * Time.deltaTime);
+    //     }
+    //     else
+    //     {
+    //         // 障害物があれば少しだけ方向転換
+    //         Vector2 rightDir = new Vector2(-direction.y, direction.x);
+    //         transform.position += (Vector3)(rightDir * (speed * patrolSpeedFactor) * 0.5f * Time.deltaTime);
+    //     }
+
+    //     if (Vector2.Distance(transform.position, targetPoint.position) < patrolReachDistance)
+    //     {
+    //         currentPatrolIndex++;
+    //         if (currentPatrolIndex >= patrolPoints.Length)
+    //         {
+    //             currentPatrolIndex = 0; // 最初に戻る (ループ巡回)
+    //         }
+    //     }
+    // }
     void DoIdle()
     {
         if (patrolPoints.Length == 0)
@@ -193,15 +236,16 @@ public class NPCController : MonoBehaviour
         {
             // 障害物があれば少しだけ方向転換
             Vector2 rightDir = new Vector2(-direction.y, direction.x);
-            transform.position += (Vector3)(rightDir * (speed * patrolSpeedFactor) * 0.5f * Time.deltaTime);
+            transform.position += (Vector3)(rightDir * speed * patrolSpeedFactor * 0.5f * Time.deltaTime);
         }
 
         if (Vector2.Distance(transform.position, targetPoint.position) < patrolReachDistance)
         {
-            currentPatrolIndex++;
-            if (currentPatrolIndex >= patrolPoints.Length)
+            // 次の巡回ポイントをランダムに選択 (ただし直前のポイントと同じにならないように)
+            int previousIndex = currentPatrolIndex;
+            while (currentPatrolIndex == previousIndex)
             {
-                currentPatrolIndex = 0; // 最初に戻る (ループ巡回)
+                currentPatrolIndex = Random.Range(0, patrolPoints.Length);
             }
         }
     }
