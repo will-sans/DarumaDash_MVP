@@ -1,33 +1,46 @@
 using UnityEngine;
-public enum NPCState//��Ԃ�Enum�Œ�`
+using System.Collections.Generic; // List型を使用するために必要
+
+public enum NPCState//Define the state as Enum
 {
     Idle,
     Chase,
-    Rush
+    Rush,
+    ChaseToLastSeen
 }
 
 
 public class NPCController : MonoBehaviour
 {
-    //NPCController.cs�ɏ�ԊǗ���ǉ�
+    public float visionRadius = 6f;
     public NPCState currentState = NPCState.Idle;
-    private float idleTimer = 0f;
-    private Vector2 idleTarget;
-    //���싗�� visionRadius ��ϐ����i�����\�j
-    public float visionRadius = 6f; // Inspector���璲����
-
     public float speed = 3.5f;
-    //public Transform target;
     public Transform[] potentialTargets;
     public PlayerController selfPlayer;
-    
+
+    private float idleTimer = 0f;
+    private Vector2 idleTarget;
+
+    private Vector2 lastSeenPosition;
+    private bool hasLastSeenPosition = false;
+
+    public Transform[] patrolPoints; // Inspectorから設定する巡回地点
+    private int currentPatrolIndex = 0;
+    private float patrolSpeedFactor = 0.5f;
+    public float patrolReachDistance = 0.3f; // 巡回地点への到達判定距離
+
+    private Vector2 initialPosition;
+    public float idleMoveRadius = 3f;
+    public float idleSpeedMin = 0.3f;
+    public float idleSpeedMax = 0.7f;
+
     void Start()
     {
         selfPlayer = GetComponent<PlayerController>();
-        selfPlayer.currentState = PlayerState.Oni; // NPC�͏�ɃI�j�I
+        selfPlayer.currentState = PlayerState.Oni; // NPC always ONI!
+        initialPosition = transform.position; // 初期位置を保存
     }
 
-    //Update�ŏ�ԑJ�ڂƓ���ؑ�
     void Update()
     {
         if (selfPlayer.currentState != PlayerState.Oni) return;
@@ -35,92 +48,162 @@ public class NPCController : MonoBehaviour
         Transform closest = FindClosestHuman();
         float distance = closest != null ? Vector2.Distance(transform.position, closest.position) : Mathf.Infinity;
 
-        // ��ԑJ��
+        //State transition
         if (closest != null)
         {
-            if (distance < 2f)
-            {
-                currentState = NPCState.Rush;
-            }
-            else
-            {
-                currentState = NPCState.Chase;
-            }
+            currentState = (distance < 2f) ? NPCState.Rush : NPCState.Chase;
+            lastSeenPosition = closest.position;
+            hasLastSeenPosition = true;
+        }
+        else if (hasLastSeenPosition)
+        {
+            currentState = NPCState.ChaseToLastSeen;
         }
         else
         {
             currentState = NPCState.Idle;
         }
 
-        // �s�����s
+        //Action execution
         switch (currentState)
         {
             case NPCState.Idle:
                 DoIdle();
                 break;
             case NPCState.Chase:
-                DoChase(closest, speed);
+                DoChase(closest.position, speed);
                 break;
             case NPCState.Rush:
-                DoChase(closest, speed * 1.5f);
+                DoChase(closest.position, speed * 1.5f);
+                break;
+            case NPCState.ChaseToLastSeen:
+                DoChase(lastSeenPosition, speed * 0.9f);
+                if (Vector2.Distance(transform.position, lastSeenPosition) < 0.3f)
+                {
+                    hasLastSeenPosition = false;
+                    currentState = NPCState.Idle;
+                }
                 break;
         }
     }
-    
-    //�Օ����`�F�b�N�t���� FindClosestHuman() �ɏ��������I
+
     Transform FindClosestHuman()
     {
-        Transform closest = null;
+        List<Transform> visibleHumans = new List<Transform>(); // 視界内のHumanを格納するリスト
         float closestDist = Mathf.Infinity;
+        Transform closest = null;
 
-        foreach (Transform t in potentialTargets)
+        foreach (Transform target in potentialTargets)
         {
-            PlayerController p = t.GetComponent<PlayerController>();
-            if (p != null && p.currentState == PlayerState.Human)
+            PlayerController player = target.GetComponent<PlayerController>();
+            if (player != null && player.currentState == PlayerState.Human)
             {
-                float dist = Vector2.Distance(transform.position, t.position);
-
-                if (dist < closestDist && dist <= visionRadius)
+                float dist = Vector2.Distance(transform.position, target.position);
+                if (dist <= visionRadius)
                 {
-                    // �Օ��`�F�b�N�iRaycast�j
-                    RaycastHit2D hit = Physics2D.Linecast(transform.position, t.position, LayerMask.GetMask("Obstacle"));
-
+                    // 障害物チェック
+                    RaycastHit2D hit = Physics2D.Linecast(transform.position, target.position, LayerMask.GetMask("Obstacle"));
                     if (hit.collider == null)
                     {
-                        closestDist = dist;
-                        closest = t;
+                        visibleHumans.Add(target); // 障害物がなければリストに追加
+                        if (dist < closestDist)
+                        {
+                            closestDist = dist;
+                            closest = target;
+                        }
                     }
                 }
             }
         }
 
-        return closest;
+        // visibleHumansリストが空でなければ、最も近いターゲットを返す
+        if (visibleHumans.Count > 0)
+        {
+            return closest;
+        }
+        else
+        {
+            return null; // 視界内に障害物のないHumanがいなければnullを返す
+        }
     }
+
     void OnDrawGizmosSelected()
-{
-    Gizmos.color = Color.red;
-    Gizmos.DrawWireSphere(transform.position, visionRadius);
-}
-
-    void DoChase(Transform target, float chaseSpeed)
     {
-        if (target == null) return;
-        Vector2 dir = (target.position - transform.position).normalized;
-        transform.position += (Vector3)(dir * chaseSpeed * Time.deltaTime);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, visionRadius);
     }
 
+    void DoChase(Vector3 targetPosition, float chaseSpeed) // 引数の型をVector3に変更
+    {
+        Vector2 dir = ((Vector2)targetPosition - (Vector2)transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, dir, 1f, LayerMask.GetMask("Obstacle"));
+
+        if (hit.collider == null)
+        {
+            transform.position += (Vector3)(dir * chaseSpeed * Time.deltaTime);
+        }
+        else
+        {
+            Vector2 rightDir = new Vector2(-dir.y, dir.x);
+            transform.position += (Vector3)(rightDir * chaseSpeed * 0.5f * Time.deltaTime);
+        }
+    }
+
+    //void DoIdle()
+    //{
+    //    idleTimer -= Time.deltaTime;
+
+    //    if (idleTimer <= 0f)
+    //    {
+    //        idleTarget = (Vector2)transform.position + Random.insideUnitCircle * 2f;
+    //        idleTimer = Random.Range(1.5f, 3f);
+    //    }
+
+    //    Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
+    //    transform.position += (Vector3)(dir * (speed * 0.5f) * Time.deltaTime);
+    //}
     void DoIdle()
     {
-        idleTimer -= Time.deltaTime;
-
-        if (idleTimer <= 0f)
+        if (patrolPoints.Length == 0)
         {
-            idleTarget = (Vector2)transform.position + Random.insideUnitCircle * 2f;
-            idleTimer = Random.Range(1.5f, 3f);
+            // 巡回ポイントが設定されていない場合は、既存のランダム移動
+            idleTimer -= Time.deltaTime;
+            if (idleTimer <= 0f)
+            {
+                idleTarget = initialPosition + Random.insideUnitCircle * idleMoveRadius;
+                idleTimer = Random.Range(1.5f, 3f);
+            }
+            Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
+            transform.position += (Vector3)(dir * (speed * patrolSpeedFactor) * Time.deltaTime);
+            return;
         }
 
-        Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
-        transform.position += (Vector3)(dir * (speed * 0.5f) * Time.deltaTime);
+        Transform targetPoint = patrolPoints[currentPatrolIndex];
+        Vector2 direction = ((Vector2)targetPoint.position - (Vector2)transform.position).normalized;
+
+        // 障害物回避処理
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Obstacle"));
+
+        if (hit.collider == null)
+        {
+            // 障害物がなければそのまま進む
+            transform.position += (Vector3)(direction * (speed * patrolSpeedFactor) * Time.deltaTime);
+        }
+        else
+        {
+            // 障害物があれば少しだけ方向転換
+            Vector2 rightDir = new Vector2(-direction.y, direction.x);
+            transform.position += (Vector3)(rightDir * (speed * patrolSpeedFactor) * 0.5f * Time.deltaTime);
+        }
+
+        if (Vector2.Distance(transform.position, targetPoint.position) < patrolReachDistance)
+        {
+            currentPatrolIndex++;
+            if (currentPatrolIndex >= patrolPoints.Length)
+            {
+                currentPatrolIndex = 0; // 最初に戻る (ループ巡回)
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

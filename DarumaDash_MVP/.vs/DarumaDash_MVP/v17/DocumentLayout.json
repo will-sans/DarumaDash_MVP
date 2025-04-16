@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|c:\\projects\\darumadash\\darumadash_mvp\\assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|C:\\projects\\DarumaDash\\DarumaDash_MVP\\assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
               "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\NPCController.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPCController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAQwFQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAmwM4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T04:35:25.814Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DarumaVoiceController.cs",
               "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\DarumaVoiceController.cs",
               "RelativeToolTip": "Assets\\Scripts\\DarumaVoiceController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T04:44:30.455Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T04:32:29.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T04:32:29.394Z"
             },
             {
               "$type": "Document",
