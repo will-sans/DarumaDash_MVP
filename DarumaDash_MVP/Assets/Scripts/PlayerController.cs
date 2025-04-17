@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = movement.normalized * moveSpeed;
     }
 
-    public void Infect()//感染処理
+    public void Infect()//感染処理(スコア加算は削除)
     {
         if (currentState == PlayerState.Oni) return; // すでにオニならスキップ
 
@@ -34,15 +34,25 @@ public class PlayerController : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.magenta;
 
         Debug.Log($"[{gameObject.name}] が感染してオニになった！");
+
+        //ScoreManager.Instance.AddScore(10); // 感染で+10点
     }
     
     void OnTriggerEnter2D(Collider2D other)//当たり判定処理
     {
         PlayerController target = other.GetComponent<PlayerController>();
 
-        if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human)
+        if (target != null)
         {
-            target.Infect();
+            Debug.Log($"OnTriggerEnter2D called. other: {other.gameObject.name}, this: {this.gameObject.name}"); // 追加
+
+            // 触れた側が鬼、触れられた側が人間の場合にのみ処理を行う
+            if (this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human)
+            {
+                target.Infect();
+                ScoreManager.Instance.AddScore(10); // 感染させたプレイヤーにスコア加算
+                Debug.Log("Score add 10");
+            }
         }
     }
 

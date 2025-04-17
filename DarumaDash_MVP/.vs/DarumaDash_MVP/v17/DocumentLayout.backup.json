@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|c:\\projects\\darumadash\\darumadash_mvp\\assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|C:\\projects\\DarumaDash\\DarumaDash_MVP\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|c:\\projects\\darumadash\\darumadash_mvp\\assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|C:\\projects\\DarumaDash\\DarumaDash_MVP\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|c:\\projects\\darumadash\\darumadash_mvp\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|C:\\projects\\DarumaDash\\DarumaDash_MVP\\assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\darumavoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78D68D96-E5AD-5A40-2766-32022E0A8C1A}|Assembly-CSharp.csproj|C:\\projects\\DarumaDash\\DarumaDash_MVP\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimer.cs",
+              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameTimer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:29:29.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:07:33.704Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +74,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
               "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\NPCController.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPCController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAQwFQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAgwMUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T04:35:25.814Z",
               "EditorCaption": ""
@@ -48,40 +82,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DarumaVoiceController.cs",
-              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\DarumaVoiceController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DarumaVoiceController.cs",
-              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\DarumaVoiceController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DarumaVoiceController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T04:44:30.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T04:32:29.394Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T04:29:33.988Z"
             },
             {
               "$type": "Document",
@@ -91,9 +100,34 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T04:26:40.46Z"
+              "WhenOpened": "2025-04-12T04:26:40.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DarumaVoiceController.cs",
+              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\DarumaVoiceController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DarumaVoiceController.cs",
+              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\DarumaVoiceController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DarumaVoiceController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T04:44:30.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\projects\\DarumaDash\\DarumaDash_MVP\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T04:29:33.988Z"
             }
           ]
         }

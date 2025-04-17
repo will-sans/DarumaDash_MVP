@@ -19,6 +19,10 @@ public class GameTimer : MonoBehaviour
             isCounting = false;
             timerText.text = "00:00";
             Debug.Log("時間切れ！");
+
+            // ここに生存ボーナスを加算する処理を追加！
+            ScoreManager.Instance.AddScore(50); // 生存ボーナス
+            
             // TODO: ゲーム終了処理
         }
         else

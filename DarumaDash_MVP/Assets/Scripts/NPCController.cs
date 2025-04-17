@@ -36,8 +36,8 @@ public class NPCController : MonoBehaviour
 
     void Start()
     {
-        selfPlayer = GetComponent<PlayerController>();
-        selfPlayer.currentState = PlayerState.Oni; // NPC always ONI!
+        //selfPlayer = GetComponent<PlayerController>();
+        //selfPlayer.currentState = PlayerState.Oni; // NPC:Inspectorで設定
         initialPosition = transform.position; // 初期位置を保存
     }
 
@@ -148,63 +148,6 @@ public class NPCController : MonoBehaviour
             transform.position += (Vector3)(rightDir * chaseSpeed * 0.5f * Time.deltaTime);
         }
     }
-
-    //void DoIdle()
-    //{
-    //    idleTimer -= Time.deltaTime;
-
-    //    if (idleTimer <= 0f)
-    //    {
-    //        idleTarget = (Vector2)transform.position + Random.insideUnitCircle * 2f;
-    //        idleTimer = Random.Range(1.5f, 3f);
-    //    }
-
-    //    Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
-    //    transform.position += (Vector3)(dir * (speed * 0.5f) * Time.deltaTime);
-    //}
-    // void DoIdle()
-    // {
-    //     if (patrolPoints.Length == 0)
-    //     {
-    //         // 巡回ポイントが設定されていない場合は、既存のランダム移動
-    //         idleTimer -= Time.deltaTime;
-    //         if (idleTimer <= 0f)
-    //         {
-    //             idleTarget = initialPosition + Random.insideUnitCircle * idleMoveRadius;
-    //             idleTimer = Random.Range(1.5f, 3f);
-    //         }
-    //         Vector2 dir = (idleTarget - (Vector2)transform.position).normalized;
-    //         transform.position += (Vector3)(dir * (speed * patrolSpeedFactor) * Time.deltaTime);
-    //         return;
-    //     }
-
-    //     Transform targetPoint = patrolPoints[currentPatrolIndex];
-    //     Vector2 direction = ((Vector2)targetPoint.position - (Vector2)transform.position).normalized;
-
-    //     // 障害物回避処理
-    //     RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Obstacle"));
-
-    //     if (hit.collider == null)
-    //     {
-    //         // 障害物がなければそのまま進む
-    //         transform.position += (Vector3)(direction * (speed * patrolSpeedFactor) * Time.deltaTime);
-    //     }
-    //     else
-    //     {
-    //         // 障害物があれば少しだけ方向転換
-    //         Vector2 rightDir = new Vector2(-direction.y, direction.x);
-    //         transform.position += (Vector3)(rightDir * (speed * patrolSpeedFactor) * 0.5f * Time.deltaTime);
-    //     }
-
-    //     if (Vector2.Distance(transform.position, targetPoint.position) < patrolReachDistance)
-    //     {
-    //         currentPatrolIndex++;
-    //         if (currentPatrolIndex >= patrolPoints.Length)
-    //         {
-    //             currentPatrolIndex = 0; // 最初に戻る (ループ巡回)
-    //         }
-    //     }
-    // }
     void DoIdle()
     {
         if (patrolPoints.Length == 0)
@@ -253,9 +196,13 @@ public class NPCController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController player = other.GetComponent<PlayerController>();
-        if (player != null && player.currentState == PlayerState.Human)
+        if (player != null)
         {
-            player.Infect();
+            // 触れた側が鬼、触れられた側が人間の場合にのみ処理を行う
+            if (selfPlayer.currentState == PlayerState.Oni && player.currentState == PlayerState.Human && player != selfPlayer)
+            {
+                player.Infect();
+            }
         }
     }
 }
