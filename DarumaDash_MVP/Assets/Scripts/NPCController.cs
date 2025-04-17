@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // 非ジェネリックIEnumerator用
 using System.Collections.Generic; // List型を使用するために必要
 
 public enum NPCState//Define the state as Enum
@@ -16,34 +17,41 @@ public class NPCController : MonoBehaviour
     public NPCState currentState = NPCState.Idle;
     public float speed = 3.5f;
     public Transform[] potentialTargets;
-    public PlayerController selfPlayer;
+    public PlayerState playerState = PlayerState.Oni; // InspectorでOni設定
 
     private float idleTimer = 0f;
     private Vector2 idleTarget;
-
     private Vector2 lastSeenPosition;
     private bool hasLastSeenPosition = false;
-
     public Transform[] patrolPoints; // Inspectorから設定する巡回地点
     private int currentPatrolIndex = 0;
     private float patrolSpeedFactor = 0.5f;
     public float patrolReachDistance = 0.3f; // 巡回地点への到達判定距離
-
     private Vector2 initialPosition;
     public float idleMoveRadius = 3f;
     public float idleSpeedMin = 0.3f;
     public float idleSpeedMax = 0.7f;
 
+    public AudioClip npcDarumaClip; // NPC鬼用の「だるま、セイ！」音声
+    public GameObject stopText;
+
     void Start()
     {
-        //selfPlayer = GetComponent<PlayerController>();
-        //selfPlayer.currentState = PlayerState.Oni; // NPC:Inspectorで設定
         initialPosition = transform.position; // 初期位置を保存
     }
-
+    
     void Update()
     {
-        if (selfPlayer.currentState != PlayerState.Oni) return;
+        if (playerState == PlayerState.Oni && GameManager.Instance.isDarumaMode)
+        {
+            // ランダムや条件で音声再生（例: 5秒ごと）
+            if (Random.value < 0.01f) // 仮のトリガー
+            {
+                AudioManager.Instance.PlayVoice(npcDarumaClip);
+                StartCoroutine(TriggerStop(npcDarumaClip.length));
+            }
+        }
+        if (playerState != PlayerState.Oni) return;
 
         Transform closest = FindClosestHuman();
         float distance = closest != null ? Vector2.Distance(transform.position, closest.position) : Mathf.Infinity;
@@ -77,7 +85,7 @@ public class NPCController : MonoBehaviour
                 DoChase(closest.position, speed * 1.5f);
                 break;
             case NPCState.ChaseToLastSeen:
-                DoChase(lastSeenPosition, speed * 0.9f);
+                DoChase(lastSeenPosition, speed * 2f);//見失ったらダッシュ
                 if (Vector2.Distance(transform.position, lastSeenPosition) < 0.3f)
                 {
                     hasLastSeenPosition = false;
@@ -86,7 +94,14 @@ public class NPCController : MonoBehaviour
                 break;
         }
     }
-
+    System.Collections.IEnumerator TriggerStop(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        stopText.SetActive(true);
+        yield return new WaitForSeconds(1.0f);
+        stopText.SetActive(false);
+        Debug.Log("[NPC_Daruma] 判定トリガー！");
+    }
     Transform FindClosestHuman()
     {
         List<Transform> visibleHumans = new List<Transform>(); // 視界内のHumanを格納するリスト
@@ -117,14 +132,8 @@ public class NPCController : MonoBehaviour
         }
 
         // visibleHumansリストが空でなければ、最も近いターゲットを返す
-        if (visibleHumans.Count > 0)
-        {
-            return closest;
-        }
-        else
-        {
-            return null; // 視界内に障害物のないHumanがいなければnullを返す
-        }
+        // 視界内に障害物のないHumanがいなければnullを返す
+        return visibleHumans.Count > 0 ? closest : null;
     }
 
     void OnDrawGizmosSelected()
@@ -196,13 +205,10 @@ public class NPCController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController player = other.GetComponent<PlayerController>();
-        if (player != null)
+        if(player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
         {
-            // 触れた側が鬼、触れられた側が人間の場合にのみ処理を行う
-            if (selfPlayer.currentState == PlayerState.Oni && player.currentState == PlayerState.Human && player != selfPlayer)
-            {
                 player.Infect();
-            }
+                Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
         }
     }
 }

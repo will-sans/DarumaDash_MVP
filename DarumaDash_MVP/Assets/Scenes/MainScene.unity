@@ -3647,7 +3647,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6545728810209679515, guid: dbf2a06bf454f437081ad1b734a56561, type: 3}
+    - {fileID: 5726901283355368978, guid: dbf2a06bf454f437081ad1b734a56561, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3681,7 +3683,7 @@ MonoBehaviour:
   potentialTargets:
   - {fileID: 1063717047}
   - {fileID: 914171476}
-  selfPlayer: {fileID: 1301219926}
+  playerState: 1
   patrolPoints:
   - {fileID: 988602925}
   - {fileID: 1964098843}
@@ -3692,17 +3694,8 @@ MonoBehaviour:
   idleMoveRadius: 3
   idleSpeedMin: 0.3
   idleSpeedMax: 0.7
---- !u!114 &1301219926 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6545728810209679515, guid: dbf2a06bf454f437081ad1b734a56561, type: 3}
-  m_PrefabInstance: {fileID: 1301219922}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301219923}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 545437f67f6426948b95436b95075c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  npcDarumaClip: {fileID: 8300000, guid: 9891a562e46b153408dfa15ad3a60c43, type: 3}
+  stopText: {fileID: 2076117737}
 --- !u!58 &1301219932
 CircleCollider2D:
   m_ObjectHideFlags: 0

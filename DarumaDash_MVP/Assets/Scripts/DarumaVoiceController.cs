@@ -11,6 +11,10 @@ public class DarumaVoiceController : MonoBehaviour
     void Start()
     {
         player = GetComponent<PlayerController>();
+        if (player == null)
+        {
+            Debug.LogWarning($"[DarumaVoiceController] {gameObject.name} にPlayerControllerがない！");
+        }
     }
 
     void Update()
