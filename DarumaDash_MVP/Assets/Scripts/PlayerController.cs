@@ -4,56 +4,89 @@ public class PlayerController : MonoBehaviour
 {
     public PlayerState currentState = PlayerState.Human;
     public float moveSpeed = 5f;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb { get; private set; } // プロパティ化
     private Vector2 movement;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if (GameManager.Instance.isDarumaMode)
+        {
+            if (currentState == PlayerState.Oni || GameManager.Instance.isStopPhase)
+            {
+                movement = Vector2.zero;
+            }
+            else
+            {
+                movement.x = Input.GetAxisRaw("Horizontal");
+                movement.y = Input.GetAxisRaw("Vertical");
+            }
+        }
+        else
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+        }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rb.linearVelocity = movement.normalized * moveSpeed;
     }
 
-    public void Infect()//感染処理(スコア加算は削除)
+    public void Infect()
     {
-        if (currentState == PlayerState.Oni) return; // すでにオニならスキップ
-
+        if (currentState == PlayerState.Oni) return;
         currentState = PlayerState.Oni;
         moveSpeed *= 1.1f;
-    
-        // オニ用のスプライトに変更したい場合
         GetComponent<SpriteRenderer>().color = Color.magenta;
-
+        gameObject.tag = "Oni";
         Debug.Log($"[{gameObject.name}] が感染してオニになった！");
-
-        //ScoreManager.Instance.AddScore(10); // 感染で+10点
     }
-    
-    void OnTriggerEnter2D(Collider2D other)//当たり判定処理
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController target = other.GetComponent<PlayerController>();
-
-        if (target != null)
+        if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human && !other.GetComponent<NPCController>())
         {
-            Debug.Log($"OnTriggerEnter2D called. other: {other.gameObject.name}, this: {this.gameObject.name}"); // 追加
+            target.Infect();
+            ScoreManager.Instance.AddScore(10);
+            Debug.Log($"[{gameObject.name}] Score add 10");
+        }
 
-            // 触れた側が鬼、触れられた側が人間の場合にのみ処理を行う
-            if (this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human)
+        NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
+        if (npcTarget != null && this.currentState == PlayerState.Oni && npcTarget.currentState == PlayerState.Human)
+        {
+            npcTarget.Infect();
+            ScoreManager.Instance.AddScore(10);
+            Debug.Log($"[{gameObject.name}] Score add 10");
+        }
+
+        if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)
+        {
+            if (other.CompareTag("Oni"))
             {
-                target.Infect();
-                ScoreManager.Instance.AddScore(10); // 感染させたプレイヤーにスコア加算
-                Debug.Log("Score add 10");
+                NPCController npcOni = other.GetComponent<NPCController>();
+                if (npcOni != null)
+                {
+                    ScoreManager.Instance.AddScore(20);
+                    GameManager.Instance.LiberateAllOni();
+                    Debug.Log($"[{gameObject.name}] NPC鬼タッチ！Score +20、全員解放");
+                }
+                else
+                {
+                    PlayerController playerOni = other.GetComponent<PlayerController>();
+                    if (playerOni != null)
+                    {
+                        ScoreManager.Instance.AddScore(5);
+                        Debug.Log($"[{gameObject.name}] Playerオニタッチ！Score +5");
+                    }
+                }
             }
         }
     }
-
 }
