@@ -3,9 +3,9 @@ using System.Collections;
 
 public class DarumaVoiceController : MonoBehaviour
 {
-    private PlayerController player; //プレイヤーを参照
-    public AudioClip[] darumaClips; // 各キャラ用だるま音声（6つ）
-    public string characterColor = "red"; // キャラ識別
+    private PlayerController player;
+    public AudioClip[] darumaClips;
+    public string characterColor = "red";
     public GameObject stopText;
 
     void Start()
@@ -38,7 +38,8 @@ public class DarumaVoiceController : MonoBehaviour
             StartCoroutine(TriggerStop(delay));
         }
     }
-    IEnumerator TriggerStop(float delay)
+
+    System.Collections.IEnumerator TriggerStop(float delay)
     {
         yield return new WaitForSeconds(delay);
         stopText.SetActive(true);
@@ -61,4 +62,3 @@ public class DarumaVoiceController : MonoBehaviour
         }
     }
 }
-

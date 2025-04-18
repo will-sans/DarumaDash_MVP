@@ -1,8 +1,8 @@
 using UnityEngine;
-using System.Collections; // 非ジェネリックIEnumerator用
-using System.Collections.Generic; // List型を使用するために必要
+using System.Collections;
+using System.Collections.Generic;
 
-public enum NPCState//Define the state as Enum
+public enum NPCState
 {
     Idle,
     Chase,
@@ -10,53 +10,48 @@ public enum NPCState//Define the state as Enum
     ChaseToLastSeen
 }
 
-
 public class NPCController : MonoBehaviour
 {
     public float visionRadius = 6f;
     public NPCState currentState = NPCState.Idle;
     public float speed = 3.5f;
     public Transform[] potentialTargets;
-    public PlayerState playerState = PlayerState.Oni; // InspectorでOni設定
-
+    public PlayerState playerState = PlayerState.Oni;
+    public AudioClip npcDarumaFullClip;
     private float idleTimer = 0f;
     private Vector2 idleTarget;
     private Vector2 lastSeenPosition;
     private bool hasLastSeenPosition = false;
-    public Transform[] patrolPoints; // Inspectorから設定する巡回地点
+    public Transform[] patrolPoints;
     private int currentPatrolIndex = 0;
     private float patrolSpeedFactor = 0.5f;
-    public float patrolReachDistance = 0.3f; // 巡回地点への到達判定距離
+    public float patrolReachDistance = 0.3f;
     private Vector2 initialPosition;
     public float idleMoveRadius = 3f;
     public float idleSpeedMin = 0.3f;
     public float idleSpeedMax = 0.7f;
 
-    public AudioClip npcDarumaClip; // NPC鬼用の「だるま、セイ！」音声
-    public GameObject stopText;
-
     void Start()
     {
-        initialPosition = transform.position; // 初期位置を保存
+        initialPosition = transform.position;
     }
-    
+
     void Update()
     {
-        if (playerState == PlayerState.Oni && GameManager.Instance.isDarumaMode)
+        if (GameManager.Instance.isDarumaMode)
         {
-            // ランダムや条件で音声再生（例: 5秒ごと）
-            if (Random.value < 0.01f) // 仮のトリガー
-            {
-                AudioManager.Instance.PlayVoice(npcDarumaClip);
-                StartCoroutine(TriggerStop(npcDarumaClip.length));
-            }
+            return; // ダルマモード中は完全に停止
         }
-        if (playerState != PlayerState.Oni) return;
+
+        if (!GameManager.Instance.isDarumaMode && Random.value < 0.00167f)
+        {
+            GameManager.Instance.EnterDarumaMode();
+            Debug.Log("[NPC_Oni] だるまモード開始！");
+        }
 
         Transform closest = FindClosestHuman();
         float distance = closest != null ? Vector2.Distance(transform.position, closest.position) : Mathf.Infinity;
 
-        //State transition
         if (closest != null)
         {
             currentState = (distance < 2f) ? NPCState.Rush : NPCState.Chase;
@@ -72,7 +67,6 @@ public class NPCController : MonoBehaviour
             currentState = NPCState.Idle;
         }
 
-        //Action execution
         switch (currentState)
         {
             case NPCState.Idle:
@@ -85,7 +79,7 @@ public class NPCController : MonoBehaviour
                 DoChase(closest.position, speed * 1.5f);
                 break;
             case NPCState.ChaseToLastSeen:
-                DoChase(lastSeenPosition, speed * 2f);//見失ったらダッシュ
+                DoChase(lastSeenPosition, speed * 0.9f);
                 if (Vector2.Distance(transform.position, lastSeenPosition) < 0.3f)
                 {
                     hasLastSeenPosition = false;
@@ -94,33 +88,27 @@ public class NPCController : MonoBehaviour
                 break;
         }
     }
-    System.Collections.IEnumerator TriggerStop(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        stopText.SetActive(true);
-        yield return new WaitForSeconds(1.0f);
-        stopText.SetActive(false);
-        Debug.Log("[NPC_Daruma] 判定トリガー！");
-    }
+
     Transform FindClosestHuman()
     {
-        List<Transform> visibleHumans = new List<Transform>(); // 視界内のHumanを格納するリスト
+        List<Transform> visibleHumans = new List<Transform>();
         float closestDist = Mathf.Infinity;
         Transform closest = null;
 
         foreach (Transform target in potentialTargets)
         {
             PlayerController player = target.GetComponent<PlayerController>();
-            if (player != null && player.currentState == PlayerState.Human)
+            NPCPlayerController npcPlayer = target.GetComponent<NPCPlayerController>();
+            if ((player != null && player.currentState == PlayerState.Human) ||
+                (npcPlayer != null && npcPlayer.currentState == PlayerState.Human))
             {
                 float dist = Vector2.Distance(transform.position, target.position);
                 if (dist <= visionRadius)
                 {
-                    // 障害物チェック
                     RaycastHit2D hit = Physics2D.Linecast(transform.position, target.position, LayerMask.GetMask("Obstacle"));
                     if (hit.collider == null)
                     {
-                        visibleHumans.Add(target); // 障害物がなければリストに追加
+                        visibleHumans.Add(target);
                         if (dist < closestDist)
                         {
                             closestDist = dist;
@@ -130,9 +118,6 @@ public class NPCController : MonoBehaviour
                 }
             }
         }
-
-        // visibleHumansリストが空でなければ、最も近いターゲットを返す
-        // 視界内に障害物のないHumanがいなければnullを返す
         return visibleHumans.Count > 0 ? closest : null;
     }
 
@@ -142,11 +127,10 @@ public class NPCController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, visionRadius);
     }
 
-    void DoChase(Vector3 targetPosition, float chaseSpeed) // 引数の型をVector3に変更
+    void DoChase(Vector3 targetPosition, float chaseSpeed)
     {
         Vector2 dir = ((Vector2)targetPosition - (Vector2)transform.position).normalized;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, dir, 1f, LayerMask.GetMask("Obstacle"));
-
         if (hit.collider == null)
         {
             transform.position += (Vector3)(dir * chaseSpeed * Time.deltaTime);
@@ -157,11 +141,11 @@ public class NPCController : MonoBehaviour
             transform.position += (Vector3)(rightDir * chaseSpeed * 0.5f * Time.deltaTime);
         }
     }
+
     void DoIdle()
     {
         if (patrolPoints.Length == 0)
         {
-            // 巡回ポイントが設定されていない場合は、既存のランダム移動
             idleTimer -= Time.deltaTime;
             if (idleTimer <= 0f)
             {
@@ -175,25 +159,19 @@ public class NPCController : MonoBehaviour
 
         Transform targetPoint = patrolPoints[currentPatrolIndex];
         Vector2 direction = ((Vector2)targetPoint.position - (Vector2)transform.position).normalized;
-
-        // 障害物回避処理
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Obstacle"));
-
         if (hit.collider == null)
         {
-            // 障害物がなければそのまま進む
             transform.position += (Vector3)(direction * (speed * patrolSpeedFactor) * Time.deltaTime);
         }
         else
         {
-            // 障害物があれば少しだけ方向転換
             Vector2 rightDir = new Vector2(-direction.y, direction.x);
             transform.position += (Vector3)(rightDir * speed * patrolSpeedFactor * 0.5f * Time.deltaTime);
         }
 
         if (Vector2.Distance(transform.position, targetPoint.position) < patrolReachDistance)
         {
-            // 次の巡回ポイントをランダムに選択 (ただし直前のポイントと同じにならないように)
             int previousIndex = currentPatrolIndex;
             while (currentPatrolIndex == previousIndex)
             {
@@ -205,10 +183,17 @@ public class NPCController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController player = other.GetComponent<PlayerController>();
-        if(player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
+        if (player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
         {
-                player.Infect();
-                Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
+            player.Infect();
+            Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
+        }
+
+        NPCPlayerController npcPlayer = other.GetComponent<NPCPlayerController>();
+        if (npcPlayer != null && playerState == PlayerState.Oni && npcPlayer.currentState == PlayerState.Human)
+        {
+            npcPlayer.Infect();
+            Debug.Log($"[NPC_Oni] {npcPlayer.gameObject.name} を感染させた！");
         }
     }
 }
