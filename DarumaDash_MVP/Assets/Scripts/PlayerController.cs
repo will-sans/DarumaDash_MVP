@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public PlayerState currentState = PlayerState.Human;
     public float moveSpeed = 5f;
-    public Rigidbody2D rb { get; private set; } // プロパティ化
+    public Rigidbody2D rb { get; private set; }
     private Vector2 movement;
 
     void Start()
@@ -48,22 +48,34 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"[{gameObject.name}] が感染してオニになった！");
     }
 
+    public void UnInfect()
+    {
+        if (currentState == PlayerState.Human) return;
+        currentState = PlayerState.Human;
+        moveSpeed /= 1.1f;
+        GetComponent<SpriteRenderer>().color = Color.white;
+        gameObject.tag = "Human";
+        Debug.Log($"[{gameObject.name}] が復活してヒトに戻った！");
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController target = other.GetComponent<PlayerController>();
         if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human && !other.GetComponent<NPCController>())
         {
             target.Infect();
+            this.UnInfect();
             ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10");
+            Debug.Log($"[{gameObject.name}] Score add 10, 復活！");
         }
 
         NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
         if (npcTarget != null && this.currentState == PlayerState.Oni && npcTarget.currentState == PlayerState.Human)
         {
             npcTarget.Infect();
+            this.UnInfect();
             ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10");
+            Debug.Log($"[{gameObject.name}] Score add 10, 復活！");
         }
 
         if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)

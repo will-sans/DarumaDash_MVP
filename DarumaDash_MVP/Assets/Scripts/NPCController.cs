@@ -40,12 +40,12 @@ public class NPCController : MonoBehaviour
     {
         if (GameManager.Instance.isDarumaMode)
         {
-            return; // ダルマモード中は完全に停止
+            return;
         }
 
         if (!GameManager.Instance.isDarumaMode && Random.value < 0.00167f)
         {
-            GameManager.Instance.EnterDarumaMode();
+            GameManager.Instance.EnterDarumaMode(true);
             Debug.Log("[NPC_Oni] だるまモード開始！");
         }
 
@@ -89,6 +89,14 @@ public class NPCController : MonoBehaviour
         }
     }
 
+    void FixedUpdate()
+    {
+        if (GameManager.Instance.isDarumaMode)
+        {
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        }
+    }
+
     Transform FindClosestHuman()
     {
         List<Transform> visibleHumans = new List<Transform>();
@@ -99,13 +107,14 @@ public class NPCController : MonoBehaviour
         {
             PlayerController player = target.GetComponent<PlayerController>();
             NPCPlayerController npcPlayer = target.GetComponent<NPCPlayerController>();
-            if ((player != null && player.currentState == PlayerState.Human) ||
+            if ((player != null && player.currentState == PlayerState.Human) || 
                 (npcPlayer != null && npcPlayer.currentState == PlayerState.Human))
             {
                 float dist = Vector2.Distance(transform.position, target.position);
                 if (dist <= visionRadius)
                 {
                     RaycastHit2D hit = Physics2D.Linecast(transform.position, target.position, LayerMask.GetMask("Obstacle"));
+                    Debug.DrawLine(transform.position, target.position, hit.collider == null ? Color.green : Color.red, 1f);
                     if (hit.collider == null)
                     {
                         visibleHumans.Add(target);
@@ -114,6 +123,10 @@ public class NPCController : MonoBehaviour
                             closestDist = dist;
                             closest = target;
                         }
+                    }
+                    else
+                    {
+                        //Debug.Log($"[NPC_Oni] Obstacle detected: {hit.collider.name}");
                     }
                 }
             }

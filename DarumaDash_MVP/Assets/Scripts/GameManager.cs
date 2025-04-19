@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private List<PlayerController> players;
     private List<NPCPlayerController> npcPlayers;
     private float darumaCooldown = 0f;
+    private bool isNPCInitiatedDaruma = false;
 
     private void Awake()
     {
@@ -32,10 +33,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void EnterDarumaMode()
+    public void EnterDarumaMode(bool isNPCInitiated = false)
     {
         if (darumaCooldown > 0) return;
         isDarumaMode = true;
+        isNPCInitiatedDaruma = isNPCInitiated;
         AudioManager.Instance.PlayDarumaBGM();
         Debug.Log("[GameManager] だるまモード突入");
         StartCoroutine(PlayDarumaVoice());
@@ -66,8 +68,15 @@ public class GameManager : MonoBehaviour
             if (player.currentState == PlayerState.Human && player.rb.linearVelocity.magnitude > 0.1f)
             {
                 player.Infect();
-                ScoreManager.Instance.AddScore(10); // アウトで+10
-                Debug.Log($"[GameManager] {player.gameObject.name} が動いてアウト！Score +10");
+                if (!isNPCInitiatedDaruma)
+                {
+                    ScoreManager.Instance.AddScore(10);
+                    Debug.Log($"[GameManager] {player.gameObject.name} が動いてアウト！Score +10");
+                }
+                else
+                {
+                    Debug.Log($"[GameManager] {player.gameObject.name} が動いてアウト！");
+                }
             }
         }
         foreach (NPCPlayerController npc in npcPlayers)
@@ -75,8 +84,15 @@ public class GameManager : MonoBehaviour
             if (npc.currentState == PlayerState.Human && npc.rb.linearVelocity.magnitude > 0.1f)
             {
                 npc.Infect();
-                ScoreManager.Instance.AddScore(10); // アウトで+10
-                Debug.Log($"[GameManager] {npc.gameObject.name} が動いてアウト！Score +10");
+                if (!isNPCInitiatedDaruma)
+                {
+                    ScoreManager.Instance.AddScore(10);
+                    Debug.Log($"[GameManager] {npc.gameObject.name} が動いてアウト！Score +10");
+                }
+                else
+                {
+                    Debug.Log($"[GameManager] {npc.gameObject.name} が動いてアウト！");
+                }
             }
         }
 
@@ -90,22 +106,14 @@ public class GameManager : MonoBehaviour
         {
             if (player.currentState == PlayerState.Oni)
             {
-                player.currentState = PlayerState.Human;
-                player.moveSpeed /= 1.1f;
-                player.GetComponent<SpriteRenderer>().color = Color.white;
-                player.gameObject.tag = "Human";
-                Debug.Log($"[GameManager] {player.gameObject.name} が解放された！");
+                player.UnInfect();
             }
         }
         foreach (NPCPlayerController npc in npcPlayers)
         {
             if (npc.currentState == PlayerState.Oni)
             {
-                npc.currentState = PlayerState.Human;
-                npc.moveSpeed /= 1.1f;
-                npc.GetComponent<SpriteRenderer>().color = Color.white;
-                npc.gameObject.tag = "Human";
-                Debug.Log($"[GameManager] {npc.gameObject.name} が解放された！");
+                npc.UnInfect();
             }
         }
     }

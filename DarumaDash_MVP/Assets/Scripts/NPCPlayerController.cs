@@ -4,19 +4,19 @@ public class NPCPlayerController : MonoBehaviour
 {
     public PlayerState currentState = PlayerState.Human;
     public float moveSpeed = 5f;
-    public Rigidbody2D rb { get; private set; } // ƒvƒƒpƒeƒB‰»
+    public Rigidbody2D rb { get; private set; }
+    public float visionRadius = 6f;
     private Vector2 movement;
     private float moveTimer = 0f;
     private Vector2 moveTarget;
     private Transform nearestOni;
-    public float visionRadius = 6f;
     private bool isMoving = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         moveTarget = transform.position;
-        moveTimer = Random.Range(1f, 3f);
+        moveTimer = Random.Range(0.5f, 1.5f);
     }
 
     void Update()
@@ -30,6 +30,8 @@ public class NPCPlayerController : MonoBehaviour
             else
             {
                 isMoving = false;
+                movement = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
             }
         }
         else
@@ -39,7 +41,6 @@ public class NPCPlayerController : MonoBehaviour
 
         if (!isMoving)
         {
-            movement = Vector2.zero;
             return;
         }
 
@@ -53,13 +54,14 @@ public class NPCPlayerController : MonoBehaviour
             }
             else if (currentState == PlayerState.Human && nearestOni != null)
             {
-                moveTarget = (Vector2)transform.position - ((Vector2)nearestOni.position - (Vector2)transform.position).normalized * 3f;
+                Vector2 hidePoint = FindHidePoint(nearestOni.position);
+                moveTarget = hidePoint != Vector2.zero ? hidePoint : (Vector2)transform.position - ((Vector2)nearestOni.position - (Vector2)transform.position).normalized * 5f;
             }
             else
             {
                 moveTarget = (Vector2)transform.position + Random.insideUnitCircle * 3f;
             }
-            moveTimer = Random.Range(1f, 3f);
+            moveTimer = Random.Range(0.5f, 1.5f);
         }
 
         movement = (moveTarget - (Vector2)transform.position).normalized * moveSpeed;
@@ -87,6 +89,21 @@ public class NPCPlayerController : MonoBehaviour
         return closest;
     }
 
+    Vector2 FindHidePoint(Vector2 oniPosition)
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            Vector2 testPoint = (Vector2)transform.position + Random.insideUnitCircle * 3f;
+            RaycastHit2D hit = Physics2D.Linecast(oniPosition, testPoint, LayerMask.GetMask("Obstacle"));
+            if (hit.collider != null)
+            {
+                Debug.Log($"[NPCPlayer] Hide point found at {testPoint}");
+                return testPoint;
+            }
+        }
+        return Vector2.zero;
+    }
+
     public void Infect()
     {
         if (currentState == PlayerState.Oni) return;
@@ -94,7 +111,17 @@ public class NPCPlayerController : MonoBehaviour
         moveSpeed *= 1.1f;
         GetComponent<SpriteRenderer>().color = Color.magenta;
         gameObject.tag = "Oni";
-        Debug.Log($"[{gameObject.name}] ‚ªŠ´õ‚µ‚ÄƒIƒj‚É‚È‚Á‚½I");
+        Debug.Log($"[{gameObject.name}] ãŒæ„ŸæŸ“ã—ã¦ã‚ªãƒ‹ã«ãªã£ãŸï¼");
+    }
+
+    public void UnInfect()
+    {
+        if (currentState == PlayerState.Human) return;
+        currentState = PlayerState.Human;
+        moveSpeed /= 1.1f;
+        GetComponent<SpriteRenderer>().color = Color.white;
+        gameObject.tag = "Human";
+        Debug.Log($"[{gameObject.name}] ãŒå¾©æ´»ã—ã¦ãƒ’ãƒˆã«æˆ»ã£ãŸï¼");
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -103,16 +130,18 @@ public class NPCPlayerController : MonoBehaviour
         if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human)
         {
             target.Infect();
+            this.UnInfect();
             ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10");
+            Debug.Log($"[{gameObject.name}] Score add 10, å¾©æ´»ï¼");
         }
 
         NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
         if (npcTarget != null && this.currentState == PlayerState.Oni && npcTarget.currentState == PlayerState.Human)
         {
             npcTarget.Infect();
+            this.UnInfect();
             ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10");
+            Debug.Log($"[{gameObject.name}] Score add 10, å¾©æ´»ï¼");
         }
 
         if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)
@@ -124,7 +153,7 @@ public class NPCPlayerController : MonoBehaviour
                 {
                     ScoreManager.Instance.AddScore(20);
                     GameManager.Instance.LiberateAllOni();
-                    Debug.Log($"[{gameObject.name}] NPC‹Sƒ^ƒbƒ`IScore +20A‘Sˆõ‰ğ•ú");
+                    Debug.Log($"[{gameObject.name}] NPCé¬¼ã‚¿ãƒƒãƒï¼Score +20ã€å…¨å“¡è§£æ”¾");
                 }
                 else
                 {
@@ -132,7 +161,7 @@ public class NPCPlayerController : MonoBehaviour
                     if (playerOni != null)
                     {
                         ScoreManager.Instance.AddScore(5);
-                        Debug.Log($"[{gameObject.name}] PlayerƒIƒjƒ^ƒbƒ`IScore +5");
+                        Debug.Log($"[{gameObject.name}] Playerã‚ªãƒ‹ã‚¿ãƒƒãƒï¼Score +5");
                     }
                 }
             }
