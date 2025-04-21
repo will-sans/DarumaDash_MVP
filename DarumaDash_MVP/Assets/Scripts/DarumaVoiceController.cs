@@ -17,16 +17,16 @@ public class DarumaVoiceController : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            if (GameManager.Instance.isDarumaMode && player.currentState == PlayerState.Oni)
-            {
-                PlayDarumaVoice();
-            }
-        }
-    }
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.D))
+    //    {
+    //        if (GameManager.Instance.isDarumaMode && player.currentState == PlayerState.Oni)
+    //        {
+    //            PlayDarumaVoice();
+    //        }
+    //    }
+    //}
 
     public void PlayDarumaVoice()
     {

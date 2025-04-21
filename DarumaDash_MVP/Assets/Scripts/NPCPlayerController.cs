@@ -41,6 +41,8 @@ public class NPCPlayerController : MonoBehaviour
 
         if (!isMoving)
         {
+            movement = Vector2.zero; 
+            rb.linearVelocity = Vector2.zero;
             return;
         }
 

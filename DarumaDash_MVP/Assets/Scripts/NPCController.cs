@@ -107,7 +107,7 @@ public class NPCController : MonoBehaviour
         {
             PlayerController player = target.GetComponent<PlayerController>();
             NPCPlayerController npcPlayer = target.GetComponent<NPCPlayerController>();
-            if ((player != null && player.currentState == PlayerState.Human) || 
+            if ((player != null && player.currentState == PlayerState.Human) ||
                 (npcPlayer != null && npcPlayer.currentState == PlayerState.Human))
             {
                 float dist = Vector2.Distance(transform.position, target.position);
@@ -126,7 +126,7 @@ public class NPCController : MonoBehaviour
                     }
                     else
                     {
-                        //Debug.Log($"[NPC_Oni] Obstacle detected: {hit.collider.name}");
+                        Debug.Log($"[NPC_Oni] Obstacle detected: {hit.collider.name}");
                     }
                 }
             }
@@ -195,6 +195,11 @@ public class NPCController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (GameManager.Instance.isDarumaMode)
+        {
+            return; // ダルマモード中は感染しない
+        }
+
         PlayerController player = other.GetComponent<PlayerController>();
         if (player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
         {
