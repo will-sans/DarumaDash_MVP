@@ -22,7 +22,7 @@ public class GameTimer : MonoBehaviour
 
             // ここに生存ボーナスを加算する処理を追加！
             ScoreManager.Instance.AddScore(50); // 生存ボーナス
-            
+            Debug.Log($"05[GameTimer]  生存ボーナス！Score +50");
             // TODO: ゲーム終了処理
         }
         else

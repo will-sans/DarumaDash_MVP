@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
                 if (!isNPCInitiatedDaruma)
                 {
                     ScoreManager.Instance.AddScore(10);
-                    Debug.Log($"[GameManager] {player.gameObject.name} が動いてアウト！Score +10");
+                    Debug.Log($"01[GameManager] {player.gameObject.name} が動いてアウト！Score +10");
                 }
                 else
                 {
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
                 if (!isNPCInitiatedDaruma)
                 {
                     ScoreManager.Instance.AddScore(10);
-                    Debug.Log($"[GameManager] {npc.gameObject.name} が動いてアウト！Score +10");
+                    Debug.Log($"02[GameManager] {npc.gameObject.name} が動いてアウト！Score +10");
                 }
                 else
                 {
@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
             if (player.currentState == PlayerState.Human)
             {
                 ScoreManager.Instance.AddScore(50);
-                Debug.Log($"[GameManager] {player.gameObject.name} 生存ボーナス！Score +50");
+                Debug.Log($"03[GameManager] {player.gameObject.name} 生存ボーナス！Score +50");
             }
         }
         foreach (NPCPlayerController npc in npcPlayers)
@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
             if (npc.currentState == PlayerState.Human)
             {
                 ScoreManager.Instance.AddScore(50);
-                Debug.Log($"[GameManager] {npc.gameObject.name} 生存ボーナス！Score +50");
+                Debug.Log($"04[GameManager] {npc.gameObject.name} 生存ボーナス！Score +50");
             }
         }
     }

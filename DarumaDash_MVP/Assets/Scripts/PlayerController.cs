@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb { get; private set; }
     private Vector2 movement;
+    private bool isContacting = false;//接触を判定するフラグ
+
 
     void Start()
     {
@@ -60,45 +62,58 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController target = other.GetComponent<PlayerController>();
-        if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human && !other.GetComponent<NPCController>())
+        if (!isContacting)
         {
-            target.Infect();
-            this.UnInfect();
-            ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10, 復活！");
-        }
-
-        NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
-        if (npcTarget != null && this.currentState == PlayerState.Oni && npcTarget.currentState == PlayerState.Human)
-        {
-            npcTarget.Infect();
-            this.UnInfect();
-            ScoreManager.Instance.AddScore(10);
-            Debug.Log($"[{gameObject.name}] Score add 10, 復活！");
-        }
-
-        if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)
-        {
-            if (other.CompareTag("Oni"))
+            isContacting = true;
+            PlayerController target = other.GetComponent<PlayerController>();
+            if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human && !other.GetComponent<NPCController>())
             {
-                NPCController npcOni = other.GetComponent<NPCController>();
-                if (npcOni != null)
+                target.Infect();
+                this.UnInfect();
+                ScoreManager.Instance.AddScore(10);
+                Debug.Log($"10[{gameObject.name}] Score add 10, 復活！");
+            }
+
+            NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
+            if (npcTarget != null && this.currentState == PlayerState.Oni && npcTarget.currentState == PlayerState.Human)
+            {
+                npcTarget.Infect();
+                this.UnInfect();
+                ScoreManager.Instance.AddScore(10);
+                Debug.Log($"11[{gameObject.name}] Score add 10, 復活！");
+            }
+
+            if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)
+            {
+                if (other.CompareTag("Oni"))
                 {
-                    ScoreManager.Instance.AddScore(20);
-                    GameManager.Instance.LiberateAllOni();
-                    Debug.Log($"[{gameObject.name}] NPC鬼タッチ！Score +20、全員解放");
-                }
-                else
-                {
-                    PlayerController playerOni = other.GetComponent<PlayerController>();
-                    if (playerOni != null)
+                    NPCController npcOni = other.GetComponent<NPCController>();
+                    if (npcOni != null)
                     {
-                        ScoreManager.Instance.AddScore(5);
-                        Debug.Log($"[{gameObject.name}] Playerオニタッチ！Score +5");
+                        ScoreManager.Instance.AddScore(20);
+                        GameManager.Instance.LiberateAllOni();
+                        Debug.Log($"12[{gameObject.name}] NPC鬼タッチ！Score +20、全員解放");
+                    }
+                    else
+                    {
+                        PlayerController playerOni = other.GetComponent<PlayerController>();
+                        if (playerOni != null)
+                        {
+                            ScoreManager.Instance.AddScore(5);
+                            Debug.Log($"13[{gameObject.name}] Playerオニタッチ！Score +5");
+                        }
                     }
                 }
             }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        PlayerController player = other.GetComponent<PlayerController>();
+        NPCPlayerController npcPlayer = other.GetComponent<NPCPlayerController>();
+        if (player != null || npcPlayer != null)
+        {
+            isContacting = false;
         }
     }
 }

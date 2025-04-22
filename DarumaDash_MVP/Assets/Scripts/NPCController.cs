@@ -30,6 +30,7 @@ public class NPCController : MonoBehaviour
     public float idleMoveRadius = 3f;
     public float idleSpeedMin = 0.3f;
     public float idleSpeedMax = 0.7f;
+    private bool isContacting = false;//接触を判定するフラグ
 
     void Start()
     {
@@ -195,23 +196,36 @@ public class NPCController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (GameManager.Instance.isDarumaMode)
+        if (!isContacting)
         {
-            return; // ダルマモード中は感染しない
-        }
+            isContacting = true;
+            if (GameManager.Instance.isDarumaMode)
+            {
+                return; // ダルマモード中は感染しない
+            }
 
+            PlayerController player = other.GetComponent<PlayerController>();
+            if (player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
+            {
+                player.Infect();
+                Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
+            }
+
+            NPCPlayerController npcPlayer = other.GetComponent<NPCPlayerController>();
+            if (npcPlayer != null && playerState == PlayerState.Oni && npcPlayer.currentState == PlayerState.Human)
+            {
+                npcPlayer.Infect();
+                Debug.Log($"[NPC_Oni] {npcPlayer.gameObject.name} を感染させた！");
+            }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
         PlayerController player = other.GetComponent<PlayerController>();
-        if (player != null && playerState == PlayerState.Oni && player.currentState == PlayerState.Human)
-        {
-            player.Infect();
-            Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
-        }
-
         NPCPlayerController npcPlayer = other.GetComponent<NPCPlayerController>();
-        if (npcPlayer != null && playerState == PlayerState.Oni && npcPlayer.currentState == PlayerState.Human)
+        if (player!=null || npcPlayer!=null)
         {
-            npcPlayer.Infect();
-            Debug.Log($"[NPC_Oni] {npcPlayer.gameObject.name} を感染させた！");
+            isContacting = false;
         }
     }
 }
