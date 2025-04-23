@@ -21,9 +21,31 @@ public class GameTimer : MonoBehaviour
             Debug.Log("時間切れ！");
 
             // ここに生存ボーナスを加算する処理を追加！
-            ScoreManager.Instance.AddScore(50); // 生存ボーナス
-            Debug.Log($"05[GameTimer]  生存ボーナス！Score +50");
+            //ScoreManager.Instance.AddScore(50); // 生存ボーナス
+            //Debug.Log($"05[GameTimer]  生存ボーナス！Score +50");
             // TODO: ゲーム終了処理
+            // Player_Redの生存チェック//*
+            bool playerSurvived = false;
+            foreach (PlayerController player in FindObjectsOfType<PlayerController>())
+            {
+                if (player.gameObject.name == "Player_Red" && player.currentState == PlayerState.Human)
+                {
+                    playerSurvived = true;
+                    break;
+                }
+            }
+
+            if (playerSurvived)
+            {
+                GameManager.Instance.AddSurvivalBonus();
+                GameManager.Instance.GameClear();
+            }
+            else
+            {
+                // 全員感染はGameManager.Updateで処理
+                Debug.Log("時間切れだが、Player_Red感染中。ゲーム続行");
+            }
+
         }
         else
         {

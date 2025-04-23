@@ -198,9 +198,10 @@ public class NPCController : MonoBehaviour
     {
         if (!isContacting)
         {
-            isContacting = true;
+            
             if (GameManager.Instance.isDarumaMode)
             {
+                isContacting = true;
                 return; // ダルマモード中は感染しない
             }
 
@@ -209,6 +210,7 @@ public class NPCController : MonoBehaviour
             {
                 player.Infect();
                 Debug.Log($"[NPC_Oni] {player.gameObject.name} を感染させた！");
+                isContacting = true;
             }
 
             NPCPlayerController npcPlayer = other.GetComponent<NPCPlayerController>();
@@ -216,6 +218,7 @@ public class NPCController : MonoBehaviour
             {
                 npcPlayer.Infect();
                 Debug.Log($"[NPC_Oni] {npcPlayer.gameObject.name} を感染させた！");
+                isContacting = true;
             }
         }
     }

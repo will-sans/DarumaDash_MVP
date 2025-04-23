@@ -132,15 +132,15 @@ public class NPCPlayerController : MonoBehaviour
     {
         if (!isContacting)
         {
-            isContacting = true;
-
+            
             PlayerController target = other.GetComponent<PlayerController>();
             if (target != null && this.currentState == PlayerState.Oni && target.currentState == PlayerState.Human)
             {
                 //target.Infect();
                 //this.UnInfect();
                 //ScoreManager.Instance.AddScore(10);
-                //Debug.Log($"06[{gameObject.name}] Score add 0, 復活！");
+                Debug.Log($"06[{gameObject.name}] Score add 0, 復活！");
+                isContacting = true;
             }
 
             NPCPlayerController npcTarget = other.GetComponent<NPCPlayerController>();
@@ -150,6 +150,7 @@ public class NPCPlayerController : MonoBehaviour
                 this.UnInfect();
                 //ScoreManager.Instance.AddScore(10);
                 Debug.Log($"07[{gameObject.name}] Score add 0, 復活！");
+                isContacting = true;
             }
 
             if (GameManager.Instance.isDarumaMode && !GameManager.Instance.isStopPhase && currentState == PlayerState.Human)
@@ -162,6 +163,7 @@ public class NPCPlayerController : MonoBehaviour
                         //ScoreManager.Instance.AddScore(20);
                         GameManager.Instance.LiberateAllOni();
                         Debug.Log($"08[{gameObject.name}] NPC鬼タッチ！Score +0、全員解放");
+                        isContacting = true;
                     }
                     else
                     {
@@ -170,6 +172,7 @@ public class NPCPlayerController : MonoBehaviour
                         {
                             //ScoreManager.Instance.AddScore(5);
                             Debug.Log($"09[{gameObject.name}] Playerオニタッチ！Score +0");
+                            isContacting = true;
                         }
                     }
                 }

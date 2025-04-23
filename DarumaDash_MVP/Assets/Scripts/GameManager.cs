@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;//*
 using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
@@ -8,10 +9,16 @@ public class GameManager : MonoBehaviour
     public bool isStopPhase = false;
     public AudioClip darumaFullClip;
     public GameObject stopText;
+
+    public GameObject gameClearPanel;//*
+    public GameObject gameOverPanel;//*
+    public GameObject reviveText; // 新UI：復活チャンス通知
+
     private List<PlayerController> players;
     private List<NPCPlayerController> npcPlayers;
     private float darumaCooldown = 0f;
     private bool isNPCInitiatedDaruma = false;
+    private bool isGameEnded = false;//*
 
     private void Awake()
     {
@@ -23,19 +30,47 @@ public class GameManager : MonoBehaviour
     {
         players = new List<PlayerController>(Object.FindObjectsByType<PlayerController>(FindObjectsSortMode.None));
         npcPlayers = new List<NPCPlayerController>(Object.FindObjectsByType<NPCPlayerController>(FindObjectsSortMode.None));
+        gameClearPanel.SetActive(false);//*
+        gameOverPanel.SetActive(false);//*
+        reviveText.SetActive(false);//*
     }
 
     void Update()
     {
+        if (isGameEnded) return;//*
+
         if (!isDarumaMode)
         {
             darumaCooldown -= Time.deltaTime;
         }
+        // 全員感染チェック//*
+        bool allInfected = true;
+        foreach (PlayerController player in players)
+        {
+            if (player.currentState == PlayerState.Human)
+            {
+                allInfected = false;
+                break;
+            }
+        }
+        foreach (NPCPlayerController npc in npcPlayers)
+        {
+            if (npc.currentState == PlayerState.Human)
+            {
+                allInfected = false;
+                break;
+            }
+        }
+        if (allInfected)
+        {
+            GameOver();
+        }
+
     }
 
     public void EnterDarumaMode(bool isNPCInitiated = false)
     {
-        if (darumaCooldown > 0) return;
+        if (darumaCooldown > 0 || isGameEnded) return;//*
         isDarumaMode = true;
         isNPCInitiatedDaruma = isNPCInitiated;
         AudioManager.Instance.PlayDarumaBGM();
@@ -77,6 +112,11 @@ public class GameManager : MonoBehaviour
                 {
                     Debug.Log($"[GameManager] {player.gameObject.name} が動いてアウト！");
                 }
+                if (player.gameObject.name == "Player_Red")//*
+                {
+                    reviveText.SetActive(true); // 復活チャンス通知
+                }
+
             }
         }
         foreach (NPCPlayerController npc in npcPlayers)
@@ -97,6 +137,8 @@ public class GameManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1.0f);
+        stopText.SetActive(false);//*
+        reviveText.SetActive(false);//*
         ExitDarumaMode();
     }
 
@@ -116,6 +158,7 @@ public class GameManager : MonoBehaviour
                 npc.UnInfect();
             }
         }
+        reviveText.SetActive(false); // 解放で復活チャンス通知オフ//*
     }
 
     public void AddSurvivalBonus()
@@ -132,9 +175,31 @@ public class GameManager : MonoBehaviour
         {
             if (npc.currentState == PlayerState.Human)
             {
-                ScoreManager.Instance.AddScore(50);
-                Debug.Log($"04[GameManager] {npc.gameObject.name} 生存ボーナス！Score +50");
+                //NPCの生き残りはスコアに関係なしに修正
+                //ScoreManager.Instance.AddScore(50);
+                //Debug.Log($"04[GameManager] {npc.gameObject.name} 生存ボーナス！Score +50");
             }
         }
+    }
+    public void GameClear()//*
+    {
+        isGameEnded = true;
+        gameClearPanel.SetActive(true);
+        Debug.Log("[GameManager] ゲームクリア！");
+        StartCoroutine(ReturnToTitle());
+    }
+
+    public void GameOver()//*
+    {
+        isGameEnded = true;
+        gameOverPanel.SetActive(true);
+        Debug.Log("[GameManager] ゲームオーバー！");
+        StartCoroutine(ReturnToTitle());
+    }
+
+    System.Collections.IEnumerator ReturnToTitle()//*
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Title");
     }
 }
